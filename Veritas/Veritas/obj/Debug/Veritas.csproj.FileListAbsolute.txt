@@ -1,0 +1,11 @@
+C:\Users\1962558\source\repos\Veritas\Veritas\bin\Debug\Veritas.exe.config
+C:\Users\1962558\source\repos\Veritas\Veritas\bin\Debug\Veritas.exe
+C:\Users\1962558\source\repos\Veritas\Veritas\bin\Debug\Veritas.pdb
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.Form1.resources
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.exe
+C:\Users\1962558\source\repos\Veritas\Veritas\obj\Debug\Veritas.pdb
