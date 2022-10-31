@@ -21,5 +21,20 @@ namespace Veritas
         {
 
         }
+
+        private void startButtom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void settingButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void devButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

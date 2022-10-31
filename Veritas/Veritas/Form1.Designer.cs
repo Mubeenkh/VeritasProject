@@ -43,6 +43,7 @@
             this.startButtom.TabIndex = 0;
             this.startButtom.Text = "Start";
             this.startButtom.UseVisualStyleBackColor = true;
+            this.startButtom.Click += new System.EventHandler(this.startButtom_Click);
             // 
             // settingButton
             // 
@@ -53,6 +54,7 @@
             this.settingButton.TabIndex = 1;
             this.settingButton.Text = "Settings";
             this.settingButton.UseVisualStyleBackColor = true;
+            this.settingButton.Click += new System.EventHandler(this.settingButton_Click);
             // 
             // devButton
             // 
@@ -63,6 +65,7 @@
             this.devButton.TabIndex = 2;
             this.devButton.Text = "Developers";
             this.devButton.UseVisualStyleBackColor = true;
+            this.devButton.Click += new System.EventHandler(this.devButton_Click);
             // 
             // veritasLabel
             // 
