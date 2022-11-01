@@ -17,7 +17,7 @@ namespace Veritas
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new VeritasForm());
-            Console.WriteLine("Hello potatos");
+            Console.WriteLine("Hello bananas");
         }
     }
 }
