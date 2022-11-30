@@ -20,10 +20,11 @@ namespace Veritas
         }
 
         private void ExitCatButton_Click(object sender, EventArgs e)
-        { 
+        {
 
-            VeritasForm veritasForm = new VeritasForm();
-            veritasForm.Show();
+            //VeritasForm veritasForm = new VeritasForm();
+            //veritasForm.Show();
+            VeritasForm.Current.Show();
             this.Close();
             
         }

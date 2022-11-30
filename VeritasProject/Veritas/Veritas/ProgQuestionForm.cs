@@ -135,7 +135,5 @@ namespace Veritas
         {
             System.Windows.Forms.Application.Exit();
         }
-
-
     }
 }
