@@ -31,17 +31,26 @@ namespace Veritas
 
         private void mathButton_Click(object sender, EventArgs e)
         {
-
+            MathQuestionForm mathQuestionForm = new MathQuestionForm();
+            this.Close();
+            //this.Hide();
+            mathQuestionForm.Show();
         }
 
         private void historyButton_Click(object sender, EventArgs e)
         {
-
+            HistoryQuestionForm historyQuestionForm = new HistoryQuestionForm();
+            this.Close();
+            //this.Hide();
+            historyQuestionForm.Show();
         }
 
         private void EnglishButton_Click(object sender, EventArgs e)
         {
-
+            EnglishQuestionForm englishQuestionForm = new EnglishQuestionForm();
+            this.Close();
+            //this.Hide();
+            englishQuestionForm.Show();
         }
 
         private void programmingButton_Click(object sender, EventArgs e)

@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,11 +53,30 @@
     <Compile Include="CategoryForm.Designer.cs">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeLanguage.cs" />
+    <Compile Include="EnglishQuestionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnglishQuestionForm.Designer.cs">
+      <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoryQuestionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryQuestionForm.Designer.cs">
+      <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MathQuestionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MathQuestionForm.Designer.cs">
+      <DependentUpon>MathQuestionForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,8 +95,23 @@
     <EmbeddedResource Include="CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EnglishQuestionForm.resx">
+      <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryQuestionForm.resx">
+      <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.es.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.fr-CA.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MathQuestionForm.resx">
+      <DependentUpon>MathQuestionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

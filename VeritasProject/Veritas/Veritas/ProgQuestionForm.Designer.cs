@@ -51,7 +51,7 @@
             // 
             // questionGroupBox
             // 
-            this.questionGroupBox.BackColor = System.Drawing.Color.White;
+            this.questionGroupBox.BackColor = System.Drawing.Color.WhiteSmoke;
             this.questionGroupBox.Controls.Add(this.questionLabel);
             this.questionGroupBox.Location = new System.Drawing.Point(61, 43);
             this.questionGroupBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -63,6 +63,7 @@
             // 
             // questionLabel
             // 
+            this.questionLabel.BackColor = System.Drawing.Color.White;
             this.questionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questionLabel.Location = new System.Drawing.Point(64, 74);
             this.questionLabel.Name = "questionLabel";
@@ -202,20 +203,20 @@
             this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.musicToolStripMenuItem});
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.settingsToolStripMenuItem.Text = "Settings";
             // 
             // musicToolStripMenuItem
             // 
             this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
-            this.musicToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.musicToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.musicToolStripMenuItem.Text = "Music";
             this.musicToolStripMenuItem.Click += new System.EventHandler(this.soundToolStripMenuItem_Click);
             // 
             // backToMainMenuToolStripMenuItem
             // 
             this.backToMainMenuToolStripMenuItem.Name = "backToMainMenuToolStripMenuItem";
-            this.backToMainMenuToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.backToMainMenuToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
             this.backToMainMenuToolStripMenuItem.Text = "Back to Main Menu";
             // 
             // ProgQuestionForm
