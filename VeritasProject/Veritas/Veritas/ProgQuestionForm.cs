@@ -26,6 +26,10 @@ namespace Veritas
 
             trivia(currentQuestion);
             totalQuestions = 2;
+            if (VeritasForm.Current.musicPlayer.settings.volume > 0)
+            {
+                musicToolStripMenuItem.Checked = true;
+            }
 
         }
 
@@ -108,12 +112,12 @@ namespace Veritas
                     break;
 
                 case 2:
-                    questionLabel.Text = "Who's Merts favorite teacher?";
+                    questionLabel.Text = "Who's Merts favorite student?";
 
-                    firstRadioButton.Text = "Adin";     //tag 1
-                    secondRadioButton.Text = "Syed";    //tag 2
-                    thirdRadioButton.Text = "Hanif";    //tag 3
-                    fourthRadioButton.Text = "Yi i think idk"; //tag 4
+                    firstRadioButton.Text = "Mubeen";     //tag 1
+                    secondRadioButton.Text = "Mert";    //tag 2
+                    thirdRadioButton.Text = "Leonella";    //tag 3
+                    fourthRadioButton.Text = "Valentin"; //tag 4
 
                     //rightAnswer should be the same number as the radioButton Tag
                     rightAnswer = 2;
@@ -134,6 +138,25 @@ namespace Veritas
         private void ExitButton_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void clickSound(object sender, EventArgs e)
+        {
+
+        }
+
+        private void soundToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            if (musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 0;
+            }
+            else if (!musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 50;
+            }
+            musicToolStripMenuItem.Checked = !musicToolStripMenuItem.Checked;
         }
     }
 }

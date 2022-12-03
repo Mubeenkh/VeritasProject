@@ -122,7 +122,6 @@
             this.musicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicPlayer.OcxState")));
             this.musicPlayer.Size = new System.Drawing.Size(204, 58);
             this.musicPlayer.TabIndex = 14;
-            this.musicPlayer.Enter += new System.EventHandler(this.musicPlayer_Enter);
             // 
             // VeritasForm
             // 

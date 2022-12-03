@@ -40,7 +40,13 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.pointLabel = new System.Windows.Forms.Label();
             this.endLabel = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.questionGroupBox.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // questionGroupBox
@@ -89,6 +95,7 @@
             // firstRadioButton
             // 
             this.firstRadioButton.AutoSize = true;
+            this.firstRadioButton.Checked = true;
             this.firstRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
             this.firstRadioButton.Location = new System.Drawing.Point(85, 338);
             this.firstRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -109,7 +116,6 @@
             this.secondRadioButton.Name = "secondRadioButton";
             this.secondRadioButton.Size = new System.Drawing.Size(17, 16);
             this.secondRadioButton.TabIndex = 9;
-            this.secondRadioButton.TabStop = true;
             this.secondRadioButton.Tag = "2";
             this.secondRadioButton.UseVisualStyleBackColor = true;
             this.secondRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
@@ -123,7 +129,6 @@
             this.thirdRadioButton.Name = "thirdRadioButton";
             this.thirdRadioButton.Size = new System.Drawing.Size(17, 16);
             this.thirdRadioButton.TabIndex = 10;
-            this.thirdRadioButton.TabStop = true;
             this.thirdRadioButton.Tag = "3";
             this.thirdRadioButton.UseVisualStyleBackColor = true;
             this.thirdRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
@@ -137,7 +142,6 @@
             this.fourthRadioButton.Name = "fourthRadioButton";
             this.fourthRadioButton.Size = new System.Drawing.Size(17, 16);
             this.fourthRadioButton.TabIndex = 11;
-            this.fourthRadioButton.TabStop = true;
             this.fourthRadioButton.Tag = "4";
             this.fourthRadioButton.UseVisualStyleBackColor = true;
             this.fourthRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
@@ -173,6 +177,47 @@
             this.endLabel.TabIndex = 14;
             this.endLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(791, 28);
+            this.menuStrip1.TabIndex = 15;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.settingsToolStripMenuItem,
+            this.backToMainMenuToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.helpToolStripMenuItem.Text = "Help?";
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musicToolStripMenuItem});
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            // 
+            // musicToolStripMenuItem
+            // 
+            this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
+            this.musicToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.musicToolStripMenuItem.Text = "Music";
+            this.musicToolStripMenuItem.Click += new System.EventHandler(this.soundToolStripMenuItem_Click);
+            // 
+            // backToMainMenuToolStripMenuItem
+            // 
+            this.backToMainMenuToolStripMenuItem.Name = "backToMainMenuToolStripMenuItem";
+            this.backToMainMenuToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.backToMainMenuToolStripMenuItem.Text = "Back to Main Menu";
+            // 
             // ProgQuestionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -189,12 +234,16 @@
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.questionGroupBox);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ProgQuestionForm";
             this.Text = "QuestionFormBase";
             this.questionGroupBox.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,5 +262,10 @@
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Label pointLabel;
         private System.Windows.Forms.Label endLabel;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
     }
 }

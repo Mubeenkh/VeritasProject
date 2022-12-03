@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,9 @@ namespace Veritas
 {
     public partial class SettingsDialog : Form
     {
-        public int ValueVol { get; set; }
+        public bool Sound { get; set; } = true;
+        private ArrayList songs = new ArrayList() 
+        {@"I m a barbie girl.wav", @"Polish Cow Full Version.wav" };
 
         public SettingsDialog()
         {
@@ -42,14 +45,22 @@ namespace Veritas
 
         private void submitSettings_Click(object sender, EventArgs e)
         {
-            ValueVol = musicVolume.Value;
-            this.DialogResult = DialogResult.OK;
-            this.Hide();
         }
 
         private void volumeValue(object sender, EventArgs e)
         {
-            submitSettings.Text = "Modify";
+            VeritasForm.Current.musicPlayer.settings.volume = musicVolume.Value * 10;           
+        }
+
+        private void checkSound(object sender, EventArgs e)
+        {
+            Sound = !Sound;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            VeritasForm.Current.musicPlayer.URL = (string)songs[rnd.Next(0,2)];
         }
     }
 }

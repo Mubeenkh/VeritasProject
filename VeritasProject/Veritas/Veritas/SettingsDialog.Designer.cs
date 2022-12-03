@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.musicVolume = new System.Windows.Forms.TrackBar();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.label2 = new System.Windows.Forms.Label();
-            this.submitSettings = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.musicVolume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,40 +47,43 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(46, 41);
+            this.label2.Location = new System.Drawing.Point(26, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Music Volume";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // submitSettings
-            // 
-            this.submitSettings.Location = new System.Drawing.Point(119, 130);
-            this.submitSettings.Name = "submitSettings";
-            this.submitSettings.Size = new System.Drawing.Size(75, 23);
-            this.submitSettings.TabIndex = 6;
-            this.submitSettings.Text = "It\'s ok! ";
-            this.submitSettings.UseVisualStyleBackColor = true;
-            this.submitSettings.Click += new System.EventHandler(this.submitSettings_Click);
-            // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(49, 93);
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.Location = new System.Drawing.Point(29, 75);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(68, 20);
             this.checkBox2.TabIndex = 8;
             this.checkBox2.Text = "Sound";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkSound);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(80, 120);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 35);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Plz change music";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // SettingsDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 179);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.submitSettings);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.musicVolume);
             this.Name = "SettingsDialog";
@@ -93,10 +95,9 @@
         }
 
         #endregion
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button submitSettings;
         public System.Windows.Forms.TrackBar musicVolume;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
