@@ -8,6 +8,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Veritas
 {
@@ -54,6 +55,7 @@ namespace Veritas
 
             timer1.Interval= 1000;
             timer1.Start(); //Starting the timer
+            opacityTimer.Start();
         }
 
         private void startButtom_Click(object sender, EventArgs e)
@@ -84,7 +86,7 @@ namespace Veritas
                 clickSound.Play();
             }
 
-            var text = "Just Mubeen(me) For Now, nahhh and me too";
+            var text = "Mubeen Khan, Leonella Martel Levy, Mert Kairstan Salvador";
             MessageBox.Show(text, "Developers", MessageBoxButtons.OK,
                             MessageBoxIcon.Information);
         }
@@ -132,6 +134,74 @@ namespace Veritas
                     isTranslated = 0;
                 }
             }
+        }
+
+        //On load animation
+        private void opacityTimer_Tick(object sender, EventArgs e)
+        {
+            if(Opacity == 1)
+                opacityTimer.Stop();
+
+            Opacity += .1;
+        }
+
+        //Hover Animations --------------------------------------------------------------------------------------- Mert
+        private void startButtom_MouseHover(object sender, EventArgs e)
+        {
+            clearColor();
+            clearBackground();
+
+            startButtom.BackgroundImage = (Image)Properties.Resources.start;
+            startButtom.ForeColor = Color.White;
+        }
+
+        private void settingButton_MouseHover(object sender, EventArgs e)
+        {
+            clearColor();
+            clearBackground();
+
+            settingButton.BackgroundImage = (Image)Properties.Resources.settings;
+            settingButton.ForeColor = Color.White;
+        }
+
+        private void devButton_MouseHover(object sender, EventArgs e)
+        {
+            clearColor();
+            clearBackground();
+
+            devButton.BackgroundImage = (Image) Properties.Resources.coders;
+            devButton.ForeColor = Color.White;
+        }
+
+        private void ExitButton_MouseHover(object sender, EventArgs e)
+        {
+            clearColor();
+            clearBackground();
+
+            ExitButton.BackgroundImage = (Image)Properties.Resources.exit;
+            ExitButton.ForeColor = Color.White;
+        }
+
+        private void VeritasForm_MouseHover(object sender, EventArgs e)
+        {
+            clearColor();
+            clearBackground();
+        }
+
+        public void clearColor()
+        {
+            startButtom.ForeColor = Color.Black;
+            settingButton.ForeColor = Color.Black;
+            devButton.ForeColor = Color.Black;
+            ExitButton.ForeColor = Color.Black;
+        }
+
+        public void clearBackground()
+        {
+            startButtom.BackgroundImage = base.BackgroundImage;
+            settingButton.BackgroundImage = base.BackgroundImage;
+            devButton.BackgroundImage = base.BackgroundImage;
+            ExitButton.BackgroundImage = base.BackgroundImage;
         }
     }
 }

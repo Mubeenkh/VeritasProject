@@ -86,6 +86,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ProgQuestionForm.resx">
       <DependentUpon>ProgQuestionForm.cs</DependentUpon>
@@ -124,6 +125,18 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coders.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

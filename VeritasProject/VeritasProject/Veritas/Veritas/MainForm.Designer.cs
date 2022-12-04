@@ -36,8 +36,9 @@
             this.veritasLabel = new System.Windows.Forms.Label();
             this.ExitButton = new System.Windows.Forms.Button();
             this.fullExitButton = new System.Windows.Forms.Button();
-            this.musicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.opacityTimer = new System.Windows.Forms.Timer(this.components);
+            this.musicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,6 +56,7 @@
             this.startButtom.Text = "Start";
             this.startButtom.UseVisualStyleBackColor = false;
             this.startButtom.Click += new System.EventHandler(this.startButtom_Click);
+            this.startButtom.MouseHover += new System.EventHandler(this.startButtom_MouseHover);
             // 
             // settingButton
             // 
@@ -69,6 +71,7 @@
             this.settingButton.Text = "Settings";
             this.settingButton.UseVisualStyleBackColor = false;
             this.settingButton.Click += new System.EventHandler(this.settingButton_Click);
+            this.settingButton.MouseHover += new System.EventHandler(this.settingButton_MouseHover);
             // 
             // devButton
             // 
@@ -83,6 +86,7 @@
             this.devButton.Text = "Developers";
             this.devButton.UseVisualStyleBackColor = false;
             this.devButton.Click += new System.EventHandler(this.devButton_Click);
+            this.devButton.MouseHover += new System.EventHandler(this.devButton_MouseHover);
             // 
             // veritasLabel
             // 
@@ -108,6 +112,7 @@
             this.ExitButton.Text = "Exit Game";
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            this.ExitButton.MouseHover += new System.EventHandler(this.ExitButton_MouseHover);
             // 
             // fullExitButton
             // 
@@ -126,6 +131,17 @@
             this.fullExitButton.UseVisualStyleBackColor = false;
             this.fullExitButton.Click += new System.EventHandler(this.fullExitButton_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // opacityTimer
+            // 
+            this.opacityTimer.Enabled = true;
+            this.opacityTimer.Interval = 50;
+            this.opacityTimer.Tick += new System.EventHandler(this.opacityTimer_Tick);
+            // 
             // musicPlayer
             // 
             this.musicPlayer.Enabled = true;
@@ -135,11 +151,6 @@
             this.musicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicPlayer.OcxState")));
             this.musicPlayer.Size = new System.Drawing.Size(204, 58);
             this.musicPlayer.TabIndex = 14;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // VeritasForm
             // 
@@ -158,8 +169,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "VeritasForm";
+            this.Opacity = 0D;
             this.Text = "Veritas";
             this.Load += new System.EventHandler(this.VeritasForm_Load);
+            this.MouseHover += new System.EventHandler(this.VeritasForm_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).EndInit();
             this.ResumeLayout(false);
 
@@ -175,6 +188,7 @@
         private System.Windows.Forms.Button fullExitButton;
         public AxWMPLib.AxWindowsMediaPlayer musicPlayer;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer opacityTimer;
     }
 }
 
