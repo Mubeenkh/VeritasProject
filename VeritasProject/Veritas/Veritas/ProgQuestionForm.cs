@@ -158,5 +158,35 @@ namespace Veritas
             }
             musicToolStripMenuItem.Checked = !musicToolStripMenuItem.Checked;
         }
+
+        private void ProgQuestionForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void endLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pointLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void backToMainMenuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,30 +23,6 @@ namespace Veritas
             this.DialogResult = DialogResult.Cancel;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SettingsDialog_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void submitSettings_Click(object sender, EventArgs e)
-        {
-        }
-
         private void volumeValue(object sender, EventArgs e)
         {
             VeritasForm.Current.musicPlayer.settings.volume = musicVolume.Value * 10;           

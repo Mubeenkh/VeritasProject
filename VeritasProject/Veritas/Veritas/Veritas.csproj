@@ -92,11 +92,38 @@
     <Compile Include="SettingsDialog.Designer.cs">
       <DependentUpon>SettingsDialog.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CategoryForm.es.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryForm.fr-CA.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoryForm.fr.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CategoryForm.ssy.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnglishQuestionForm.es.resx">
+      <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnglishQuestionForm.fr-CA.resx">
+      <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnglishQuestionForm.fr.resx">
+      <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EnglishQuestionForm.resx">
       <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryQuestionForm.es.resx">
+      <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryQuestionForm.fr-CA.resx">
+      <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HistoryQuestionForm.resx">
       <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
@@ -107,11 +134,32 @@
     <EmbeddedResource Include="MainForm.fr-CA.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.fr.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.ssy.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MathQuestionForm.es.resx">
+      <DependentUpon>MathQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MathQuestionForm.fr-CA.resx">
+      <DependentUpon>MathQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MathQuestionForm.resx">
       <DependentUpon>MathQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgQuestionForm.es.resx">
+      <DependentUpon>ProgQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgQuestionForm.fr-CA.resx">
+      <DependentUpon>ProgQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgQuestionForm.ssy.resx">
+      <DependentUpon>ProgQuestionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,6 +169,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ProgQuestionForm.resx">
       <DependentUpon>ProgQuestionForm.cs</DependentUpon>
@@ -159,6 +208,18 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coders.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

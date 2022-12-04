@@ -15,11 +15,25 @@ namespace Veritas
         public HistoryQuestionForm()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            if (VeritasForm.Current.musicPlayer.settings.volume > 0)
+            {
+                musicToolStripMenuItem.Checked = true;
+            }
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
+        private void musicToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            if (musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 0;
+            }
+            else if (!musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 50;
+            }
+            musicToolStripMenuItem.Checked = !musicToolStripMenuItem.Checked;
         }
 
         private void backButton_Click(object sender, EventArgs e)
@@ -27,6 +41,21 @@ namespace Veritas
             CategoryForm categoryForm = new CategoryForm();
             categoryForm.Show();
             this.Close();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backToMainMenuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

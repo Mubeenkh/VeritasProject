@@ -17,6 +17,11 @@ namespace Veritas
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            if (VeritasForm.Current.musicPlayer.settings.volume > 0)
+            {
+                musicToolStripMenuItem.Checked = true;
+            }
         }
 
         private void ExitCatButton_Click(object sender, EventArgs e)
@@ -33,7 +38,6 @@ namespace Veritas
         {
             MathQuestionForm mathQuestionForm = new MathQuestionForm();
             this.Close();
-            //this.Hide();
             mathQuestionForm.Show();
         }
 
@@ -41,7 +45,6 @@ namespace Veritas
         {
             HistoryQuestionForm historyQuestionForm = new HistoryQuestionForm();
             this.Close();
-            //this.Hide();
             historyQuestionForm.Show();
         }
 
@@ -49,7 +52,6 @@ namespace Veritas
         {
             EnglishQuestionForm englishQuestionForm = new EnglishQuestionForm();
             this.Close();
-            //this.Hide();
             englishQuestionForm.Show();
         }
 
@@ -70,6 +72,44 @@ namespace Veritas
         private void ExitButton_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void musicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 0;
+            }
+            else if (!musicToolStripMenuItem.Checked)
+            {
+                VeritasForm.Current.musicPlayer.settings.volume = 50;
+            }
+            musicToolStripMenuItem.Checked = !musicToolStripMenuItem.Checked;
+        }
+
+        //---------------------- Mubeen ----------------------//
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var changeLanguage = new ChangeLanguage();
+            changeLanguage.UpdateConfig("language", "en");
+            Application.Restart();
+        }
+
+        private void frenchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            var changeLanguage = new ChangeLanguage();
+            changeLanguage.UpdateConfig("language", "fr-CA");
+            Application.Restart();
+        }
+
+        private void spanishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            var changeLanguage = new ChangeLanguage();
+            changeLanguage.UpdateConfig("language", "es");
+            Application.Restart();
         }
     }
 }

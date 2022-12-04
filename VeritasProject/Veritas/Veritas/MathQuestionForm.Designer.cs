@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ExitButton = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MathQuestionForm));
             this.endLabel = new System.Windows.Forms.Label();
             this.pointLabel = new System.Windows.Forms.Label();
+            this.ExitButton = new System.Windows.Forms.Button();
             this.fourthRadioButton = new System.Windows.Forms.RadioButton();
             this.thirdRadioButton = new System.Windows.Forms.RadioButton();
             this.secondRadioButton = new System.Windows.Forms.RadioButton();
@@ -39,142 +40,141 @@
             this.backButton = new System.Windows.Forms.Button();
             this.questionGroupBox = new System.Windows.Forms.GroupBox();
             this.questionLabel = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.questionGroupBox.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // ExitButton
-            // 
-            this.ExitButton.BackColor = System.Drawing.Color.Red;
-            this.ExitButton.Location = new System.Drawing.Point(708, 2);
-            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(51, 27);
-            this.ExitButton.TabIndex = 34;
-            this.ExitButton.Text = "X";
-            this.ExitButton.UseVisualStyleBackColor = false;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // endLabel
             // 
-            this.endLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.endLabel.Location = new System.Drawing.Point(204, 480);
+            resources.ApplyResources(this.endLabel, "endLabel");
             this.endLabel.Name = "endLabel";
-            this.endLabel.Size = new System.Drawing.Size(325, 43);
-            this.endLabel.TabIndex = 33;
-            this.endLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pointLabel
             // 
-            this.pointLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pointLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pointLabel.Location = new System.Drawing.Point(588, 329);
+            resources.ApplyResources(this.pointLabel, "pointLabel");
+            this.pointLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pointLabel.Name = "pointLabel";
-            this.pointLabel.Size = new System.Drawing.Size(116, 33);
-            this.pointLabel.TabIndex = 32;
-            this.pointLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.LightCoral;
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.ExitButton, "ExitButton");
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
             // fourthRadioButton
             // 
-            this.fourthRadioButton.AutoSize = true;
-            this.fourthRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.fourthRadioButton.Location = new System.Drawing.Point(60, 441);
-            this.fourthRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.fourthRadioButton, "fourthRadioButton");
+            this.fourthRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.fourthRadioButton.Name = "fourthRadioButton";
-            this.fourthRadioButton.Size = new System.Drawing.Size(17, 16);
-            this.fourthRadioButton.TabIndex = 31;
             this.fourthRadioButton.Tag = "4";
             this.fourthRadioButton.UseVisualStyleBackColor = true;
             // 
             // thirdRadioButton
             // 
-            this.thirdRadioButton.AutoSize = true;
-            this.thirdRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.thirdRadioButton.Location = new System.Drawing.Point(60, 403);
-            this.thirdRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.thirdRadioButton, "thirdRadioButton");
+            this.thirdRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.thirdRadioButton.Name = "thirdRadioButton";
-            this.thirdRadioButton.Size = new System.Drawing.Size(17, 16);
-            this.thirdRadioButton.TabIndex = 30;
             this.thirdRadioButton.Tag = "3";
             this.thirdRadioButton.UseVisualStyleBackColor = true;
             // 
             // secondRadioButton
             // 
-            this.secondRadioButton.AutoSize = true;
-            this.secondRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.secondRadioButton.Location = new System.Drawing.Point(60, 364);
-            this.secondRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.secondRadioButton, "secondRadioButton");
+            this.secondRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.secondRadioButton.Name = "secondRadioButton";
-            this.secondRadioButton.Size = new System.Drawing.Size(17, 16);
-            this.secondRadioButton.TabIndex = 29;
             this.secondRadioButton.Tag = "2";
             this.secondRadioButton.UseVisualStyleBackColor = true;
             // 
             // firstRadioButton
             // 
-            this.firstRadioButton.AutoSize = true;
-            this.firstRadioButton.Checked = true;
-            this.firstRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.firstRadioButton.Location = new System.Drawing.Point(60, 329);
-            this.firstRadioButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.firstRadioButton, "firstRadioButton");
+            this.firstRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.firstRadioButton.Name = "firstRadioButton";
-            this.firstRadioButton.Size = new System.Drawing.Size(17, 16);
-            this.firstRadioButton.TabIndex = 28;
-            this.firstRadioButton.TabStop = true;
             this.firstRadioButton.Tag = "1";
             this.firstRadioButton.UseVisualStyleBackColor = true;
             // 
             // submitButton
             // 
-            this.submitButton.Location = new System.Drawing.Point(36, 480);
-            this.submitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.submitButton.BackColor = System.Drawing.Color.Tan;
+            this.submitButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.submitButton, "submitButton");
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(135, 43);
-            this.submitButton.TabIndex = 27;
-            this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(570, 480);
-            this.backButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.backButton.BackColor = System.Drawing.Color.Tan;
+            this.backButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(135, 43);
-            this.backButton.TabIndex = 26;
-            this.backButton.Text = "Back";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // questionGroupBox
             // 
-            this.questionGroupBox.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.questionGroupBox.BackColor = System.Drawing.Color.White;
             this.questionGroupBox.Controls.Add(this.questionLabel);
-            this.questionGroupBox.Location = new System.Drawing.Point(36, 34);
-            this.questionGroupBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            resources.ApplyResources(this.questionGroupBox, "questionGroupBox");
             this.questionGroupBox.Name = "questionGroupBox";
-            this.questionGroupBox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.questionGroupBox.Size = new System.Drawing.Size(668, 274);
-            this.questionGroupBox.TabIndex = 25;
             this.questionGroupBox.TabStop = false;
             // 
             // questionLabel
             // 
-            this.questionLabel.BackColor = System.Drawing.Color.White;
-            this.questionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.questionLabel.Location = new System.Drawing.Point(74, 77);
+            resources.ApplyResources(this.questionLabel, "questionLabel");
             this.questionLabel.Name = "questionLabel";
-            this.questionLabel.Size = new System.Drawing.Size(540, 117);
-            this.questionLabel.TabIndex = 0;
-            this.questionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.helpToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.settingsToolStripMenuItem,
+            this.backToMainMenuToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musicToolStripMenuItem});
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            resources.ApplyResources(this.settingsToolStripMenuItem, "settingsToolStripMenuItem");
+            // 
+            // musicToolStripMenuItem
+            // 
+            this.musicToolStripMenuItem.Name = "musicToolStripMenuItem";
+            resources.ApplyResources(this.musicToolStripMenuItem, "musicToolStripMenuItem");
+            this.musicToolStripMenuItem.Click += new System.EventHandler(this.musicToolStripMenuItem_Click);
+            // 
+            // backToMainMenuToolStripMenuItem
+            // 
+            this.backToMainMenuToolStripMenuItem.Name = "backToMainMenuToolStripMenuItem";
+            resources.ApplyResources(this.backToMainMenuToolStripMenuItem, "backToMainMenuToolStripMenuItem");
+            this.backToMainMenuToolStripMenuItem.Click += new System.EventHandler(this.backToMainMenuToolStripMenuItem_Click);
             // 
             // MathQuestionForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(758, 553);
-            this.Controls.Add(this.ExitButton);
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.Controls.Add(this.endLabel);
             this.Controls.Add(this.pointLabel);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.fourthRadioButton);
             this.Controls.Add(this.thirdRadioButton);
             this.Controls.Add(this.secondRadioButton);
@@ -182,10 +182,12 @@
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.questionGroupBox);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MathQuestionForm";
-            this.Text = "MathQuestionForm";
             this.questionGroupBox.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,9 +195,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Label endLabel;
         private System.Windows.Forms.Label pointLabel;
+        private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.RadioButton fourthRadioButton;
         private System.Windows.Forms.RadioButton thirdRadioButton;
         private System.Windows.Forms.RadioButton secondRadioButton;
@@ -204,5 +206,10 @@
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.GroupBox questionGroupBox;
         private System.Windows.Forms.Label questionLabel;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
     }
 }

@@ -8,21 +8,21 @@ using System.Xml;
 
 namespace Veritas
 {
-    public class ChangeLanguage
+    internal class ChangeLanguage
     {
-
         public void UpdateConfig(string key, string value)
         {
             var xmlDoc = new XmlDocument();
             xmlDoc.Load(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile);
 
-            foreach(XmlElement xmlElement in xmlDoc.DocumentElement)
+            foreach (XmlElement xmlElement in xmlDoc.DocumentElement)
             {
                 if (xmlElement.Name.Equals("appSettings"))
                 {
                     foreach (XmlNode xNode in xmlElement.ChildNodes)
                     {
-                        if (xNode.Attributes[0].Value.Equals(key)){
+                        if (xNode.Attributes[0].Value.Equals(key))
+                        {
                             xNode.Attributes[1].Value = value;
                         }
                     }

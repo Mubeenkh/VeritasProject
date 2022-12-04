@@ -52,31 +52,137 @@ C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\V
 C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
 C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
 C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe.config
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Interop.WMPLib.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Interop.WMPLib.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.ResolveComReference.cache
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.SettingsDialog.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\es\Veritas.resources.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr-CA\Veritas.resources.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.es.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr-CA.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\es\Veritas.resources.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr-CA\Veritas.resources.dll
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.resources
-C:\Users\mubkh\Desktop\appdevproject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe.config
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Interop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\AxInterop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Interop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\AxInterop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.ResolveComReference.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.SettingsDialog.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe.config
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Interop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\AxInterop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Interop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\AxInterop.WMPLib.dll
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.ResolveComReference.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.SettingsDialog.resources
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
+E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe.config
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Interop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Interop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.ResolveComReference.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.SettingsDialog.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\es\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr-CA\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\es\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr-CA\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\ssy\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\ssy\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe.config
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.exe
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Veritas.pdb
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\es\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr-CA\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\ssy\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Interop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.AssemblyReference.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.SuggestedBindingRedirects.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Interop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.ResolveComReference.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Properties.Resources.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.SettingsDialog.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.es.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.fr-CA.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.ssy.resources
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.GenerateResource.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CoreCompileInputs.cache
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\es\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr-CA\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\ssy\Veritas.resources.dll
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
+C:\Users\mubkh\Desktop\newAppDev\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
