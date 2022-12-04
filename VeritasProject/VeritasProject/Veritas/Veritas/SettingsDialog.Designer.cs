@@ -37,9 +37,10 @@
             // 
             // musicVolume
             // 
-            this.musicVolume.Location = new System.Drawing.Point(194, 28);
+            this.musicVolume.Location = new System.Drawing.Point(146, 23);
+            this.musicVolume.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.musicVolume.Name = "musicVolume";
-            this.musicVolume.Size = new System.Drawing.Size(104, 56);
+            this.musicVolume.Size = new System.Drawing.Size(78, 45);
             this.musicVolume.TabIndex = 0;
             this.musicVolume.Value = 5;
             this.musicVolume.Scroll += new System.EventHandler(this.volumeValue);
@@ -47,9 +48,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 28);
+            this.label2.Location = new System.Drawing.Point(20, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 16);
+            this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Music Volume";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -59,9 +61,10 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Checked = true;
             this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(29, 75);
+            this.checkBox2.Location = new System.Drawing.Point(22, 61);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(68, 20);
+            this.checkBox2.Size = new System.Drawing.Size(57, 17);
             this.checkBox2.TabIndex = 8;
             this.checkBox2.Text = "Sound";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -69,9 +72,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(80, 120);
+            this.button1.Location = new System.Drawing.Point(60, 98);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 35);
+            this.button1.Size = new System.Drawing.Size(141, 28);
             this.button1.TabIndex = 9;
             this.button1.Text = "Plz change music";
             this.button1.UseVisualStyleBackColor = true;
@@ -79,13 +83,14 @@
             // 
             // SettingsDialog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 179);
+            this.ClientSize = new System.Drawing.Size(258, 145);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.musicVolume);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SettingsDialog";
             this.Text = "Settings";
             ((System.ComponentModel.ISupportInitialize)(this.musicVolume)).EndInit();

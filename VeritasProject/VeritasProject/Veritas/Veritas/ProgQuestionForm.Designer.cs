@@ -54,9 +54,9 @@
             this.questionGroupBox.BackColor = System.Drawing.Color.White;
             this.questionGroupBox.Controls.Add(this.questionLabel);
             this.questionGroupBox.Location = new System.Drawing.Point(11, 47);
-            this.questionGroupBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.questionGroupBox.Margin = new System.Windows.Forms.Padding(2);
             this.questionGroupBox.Name = "questionGroupBox";
-            this.questionGroupBox.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.questionGroupBox.Padding = new System.Windows.Forms.Padding(2);
             this.questionGroupBox.Size = new System.Drawing.Size(571, 186);
             this.questionGroupBox.TabIndex = 0;
             this.questionGroupBox.TabStop = false;
@@ -107,7 +107,7 @@
             this.firstRadioButton.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.firstRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.firstRadioButton.Location = new System.Drawing.Point(46, 366);
-            this.firstRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.firstRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.firstRadioButton.Name = "firstRadioButton";
             this.firstRadioButton.Size = new System.Drawing.Size(14, 13);
             this.firstRadioButton.TabIndex = 8;
@@ -121,7 +121,7 @@
             this.secondRadioButton.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.secondRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.secondRadioButton.Location = new System.Drawing.Point(363, 330);
-            this.secondRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.secondRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.secondRadioButton.Name = "secondRadioButton";
             this.secondRadioButton.Size = new System.Drawing.Size(14, 13);
             this.secondRadioButton.TabIndex = 9;
@@ -135,7 +135,7 @@
             this.thirdRadioButton.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thirdRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.thirdRadioButton.Location = new System.Drawing.Point(363, 366);
-            this.thirdRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.thirdRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.thirdRadioButton.Name = "thirdRadioButton";
             this.thirdRadioButton.Size = new System.Drawing.Size(14, 13);
             this.thirdRadioButton.TabIndex = 10;
@@ -149,7 +149,7 @@
             this.fourthRadioButton.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fourthRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.fourthRadioButton.Location = new System.Drawing.Point(46, 330);
-            this.fourthRadioButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fourthRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.fourthRadioButton.Name = "fourthRadioButton";
             this.fourthRadioButton.Size = new System.Drawing.Size(14, 13);
             this.fourthRadioButton.TabIndex = 11;
@@ -164,7 +164,7 @@
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitButton.Font = new System.Drawing.Font("Myanmar Text", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.Location = new System.Drawing.Point(556, -1);
-            this.ExitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(2);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(38, 22);
             this.ExitButton.TabIndex = 12;
@@ -181,6 +181,7 @@
             this.pointLabel.Name = "pointLabel";
             this.pointLabel.Size = new System.Drawing.Size(87, 27);
             this.pointLabel.TabIndex = 13;
+            this.pointLabel.Text = "Point:  /2";
             this.pointLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.pointLabel.Click += new System.EventHandler(this.pointLabel_Click);
             // 
@@ -259,7 +260,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProgQuestionForm";
             this.Text = "QuestionFormBase";
             this.Load += new System.EventHandler(this.ProgQuestionForm_Load);

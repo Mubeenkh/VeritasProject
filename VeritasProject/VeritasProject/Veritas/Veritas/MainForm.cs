@@ -17,10 +17,16 @@ namespace Veritas
         SoundPlayer clickSound = new SoundPlayer(@"clickSound.wav");
         SettingsDialog settingsDialog = new SettingsDialog();
 
-        //Setting up the the Main Page Animation
+        //Setting up the the Main Page Animation --------------------------------------------------------------- Mert
         int titleCounter = 0;
         int titleLength = 0;
         string titleText;
+
+        int titleCounter2 = 0;
+        int titleLength2 = 0;
+        string titleText2;
+
+        int isTranslated = 0;
 
         public VeritasForm()
         {
@@ -38,9 +44,16 @@ namespace Veritas
             musicPlayer.Ctlcontrols.play();
             musicPlayer.settings.volume = 50;
 
-            //Title Animation
-             titleText = veritasLabel.Text;
+            //Title Animation ----------------------------------------------------------------------------------- Mert
+            titleText = veritasLabel.Text;  //The Normal Font
             titleLength = titleText.Length;
+
+            titleText2 = veritasLabel.Text;  //The Symbolised Font
+            titleLength2 = titleText2.Length;
+            veritasLabel.Text = "";
+
+            timer1.Interval= 1000;
+            timer1.Start(); //Starting the timer
         }
 
         private void startButtom_Click(object sender, EventArgs e)
@@ -90,6 +103,35 @@ namespace Veritas
         private void veritasLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        //Setting The time for animating the title screen ----------------------------------------------------- Mert
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (isTranslated == 0)
+            {
+                veritasLabel.Font = new Font("Wingdings 3", veritasLabel.Font.Size, veritasLabel.Font.Style);
+                veritasLabel.Text = titleText2.Substring(0, titleCounter2);
+                ++titleCounter2;
+
+                if (titleCounter2 > titleLength2)
+                {
+                    titleCounter2 = 0;
+                    isTranslated = 1;
+                }
+            }
+            else
+            {
+                veritasLabel.Font = new Font("Tw Cen MT", veritasLabel.Font.Size, veritasLabel.Font.Style);
+                veritasLabel.Text = titleText.Substring(0, titleCounter);
+                ++titleCounter;
+
+                if (titleCounter > titleLength)
+                {
+                    titleCounter = 0;
+                    isTranslated = 0;
+                }
+            }
         }
     }
 }

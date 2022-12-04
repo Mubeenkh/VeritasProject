@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VeritasForm));
             this.startButtom = new System.Windows.Forms.Button();
             this.settingButton = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@
             this.ExitButton = new System.Windows.Forms.Button();
             this.fullExitButton = new System.Windows.Forms.Button();
             this.musicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,7 +118,7 @@
             this.fullExitButton.Font = new System.Drawing.Font("Myanmar Text", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fullExitButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.fullExitButton.Location = new System.Drawing.Point(446, 0);
-            this.fullExitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fullExitButton.Margin = new System.Windows.Forms.Padding(2);
             this.fullExitButton.Name = "fullExitButton";
             this.fullExitButton.Size = new System.Drawing.Size(44, 22);
             this.fullExitButton.TabIndex = 13;
@@ -128,11 +130,16 @@
             // 
             this.musicPlayer.Enabled = true;
             this.musicPlayer.Location = new System.Drawing.Point(11, 373);
-            this.musicPlayer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.musicPlayer.Margin = new System.Windows.Forms.Padding(2);
             this.musicPlayer.Name = "musicPlayer";
             this.musicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicPlayer.OcxState")));
             this.musicPlayer.Size = new System.Drawing.Size(204, 58);
             this.musicPlayer.TabIndex = 14;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // VeritasForm
             // 
@@ -167,6 +174,7 @@
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Button fullExitButton;
         public AxWMPLib.AxWindowsMediaPlayer musicPlayer;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
