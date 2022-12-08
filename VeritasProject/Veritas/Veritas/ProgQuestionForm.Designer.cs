@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProgQuestionForm));
             this.questionGroupBox = new System.Windows.Forms.GroupBox();
             this.questionLabel = new System.Windows.Forms.Label();
@@ -45,6 +46,8 @@
             this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.timeLeftLabel = new System.Windows.Forms.Label();
+            this.timeLimit = new System.Windows.Forms.Timer(this.components);
             this.questionGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -175,11 +178,19 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
+            // timeLeftLabel
+            // 
+            this.timeLeftLabel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.timeLeftLabel, "timeLeftLabel");
+            this.timeLeftLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.timeLeftLabel.Name = "timeLeftLabel";
+            // 
             // ProgQuestionForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
+            this.Controls.Add(this.timeLeftLabel);
             this.Controls.Add(this.endLabel);
             this.Controls.Add(this.pointLabel);
             this.Controls.Add(this.ExitButton);
@@ -221,5 +232,7 @@
         private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Label timeLeftLabel;
+        private System.Windows.Forms.Timer timeLimit;
     }
 }
