@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -86,6 +89,7 @@
     <Compile Include="ProgQuestionForm.Designer.cs">
       <DependentUpon>ProgQuestionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Questions.cs" />
     <Compile Include="SettingsDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +181,17 @@
     <EmbeddedResource Include="SettingsDialog.resx">
       <DependentUpon>SettingsDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="EnglishQuestions_en.json" />
+    <None Include="HistoryQuestions_en.json" />
+    <None Include="HistoryQuestions_es.json" />
+    <None Include="HistoryQuestions_fr-CA.json" />
+    <None Include="MathQuestions_en.json" />
+    <None Include="MathQuestions_es.json" />
+    <None Include="MathQuestions_fr-CA.json" />
+    <None Include="ProgQuestions_es.json" />
+    <None Include="ProgQuestions_en.json" />
+    <None Include="packages.config" />
+    <None Include="ProgQuestions_fr-CA.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

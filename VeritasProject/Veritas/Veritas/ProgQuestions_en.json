@@ -1,0 +1,42 @@
+[
+  {
+    "Quiz": "1. What's 1+1",
+    "TagOne": "10000",
+    "TagTwo": "2",
+    "TagTree": "-2",
+    "TagFour": "The amount of brain cells left",
+    "AnswerTag": 2
+  },
+  {
+    "Quiz": "2. Who's Merts favorite student?",
+    "TagOne": "Mubeen",
+    "TagTwo": "Mert",
+    "TagTree": "Leonella",
+    "TagFour": "Rachelle",
+    "AnswerTag": 2
+  },
+  {
+    "Quiz": "3. What's 2+2",
+    "TagOne": "986532",
+    "TagTwo": "8",
+    "TagTree": "4",
+    "TagFour": "5648",
+    "AnswerTag": 3
+  },
+  {
+    "Quiz": "4. What's 4+4",
+    "TagOne": "8",
+    "TagTwo": "2",
+    "TagTree": "4",
+    "TagFour": "0",
+    "AnswerTag": 1
+  },
+  {
+    "Quiz": "5. What's 1+4",
+    "TagOne": "8",
+    "TagTwo": "2",
+    "TagTree": "4",
+    "TagFour": "5",
+    "AnswerTag": 4
+  }
+]

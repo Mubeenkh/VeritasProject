@@ -79,6 +79,7 @@
             this.fourthRadioButton.Name = "fourthRadioButton";
             this.fourthRadioButton.Tag = "4";
             this.fourthRadioButton.UseVisualStyleBackColor = true;
+            this.fourthRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
             // 
             // thirdRadioButton
             // 
@@ -87,6 +88,7 @@
             this.thirdRadioButton.Name = "thirdRadioButton";
             this.thirdRadioButton.Tag = "3";
             this.thirdRadioButton.UseVisualStyleBackColor = true;
+            this.thirdRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
             // 
             // secondRadioButton
             // 
@@ -95,6 +97,7 @@
             this.secondRadioButton.Name = "secondRadioButton";
             this.secondRadioButton.Tag = "2";
             this.secondRadioButton.UseVisualStyleBackColor = true;
+            this.secondRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
             // 
             // firstRadioButton
             // 
@@ -103,6 +106,7 @@
             this.firstRadioButton.Name = "firstRadioButton";
             this.firstRadioButton.Tag = "1";
             this.firstRadioButton.UseVisualStyleBackColor = true;
+            this.firstRadioButton.CheckedChanged += new System.EventHandler(this.checkedAnswerEvent);
             // 
             // submitButton
             // 

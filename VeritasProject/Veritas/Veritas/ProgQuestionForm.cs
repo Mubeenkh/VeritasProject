@@ -1,36 +1,109 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Veritas
 {
     public partial class ProgQuestionForm : Form
     {
-        int rightAnswer;
-        int currentQuestion = 1;
-        int totalQuestions;
-        int tagNum;
+        int rightAnswer = 0;
+        int currentQuestion = 0;
+        int totalQuestions = 0;
+        int tagNum = 0;
         int point = 0;
-        
+
         public ProgQuestionForm()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
+            //this.StartPosition = FormStartPosition.CenterScreen;
 
             trivia(currentQuestion);
-            totalQuestions = 2;
+
+            //totalQuestions = 2;
+            totalQuestions = getNumberOfQuestions();
+
             if (VeritasForm.Current.musicPlayer.settings.volume > 0)
             {
                 musicToolStripMenuItem.Checked = true;
             }
 
+            pointLabel.Text = $"Point: {point}/{totalQuestions}";
+
+            MessageBox.Show("Language: " + getSystemLanguage());
+
+        }
+
+        public String getSystemLanguage()
+        {
+            String SystemLanguage = "";
+
+            var xmlDoc = new XmlDocument();
+            xmlDoc.Load(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile);
+
+            foreach (XmlElement xmlElement in xmlDoc.DocumentElement)
+            {
+                if (xmlElement.Name.Equals("appSettings"))
+                {
+                    foreach (XmlNode xNode in xmlElement.ChildNodes)
+                    {
+                        if (xNode.Attributes[0].Value.Equals("language"))
+                        {
+                            SystemLanguage = xNode.Attributes[1].Value + "";
+                        }
+                    }
+                }
+            }
+            return SystemLanguage;
+        }
+
+        public int getNumberOfQuestions()
+        {
+            int numberOfQuestions = 0;
+            List<Questions> jsonQuestions = new List<Questions>();
+
+            //if(getSystemLanguage() == "en")
+            //{
+                using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
+                {
+                    string json = sr.ReadToEnd();
+                    jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
+
+                }
+
+            //}
+            //if( getSystemLanguage() == "es")
+            //{
+            //    using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
+            //    {
+            //        string json = sr.ReadToEnd();
+            //        jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
+
+            //    }
+            //}
+            //if( getSystemLanguage() == "fr-CA")
+            //{
+            //    using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
+            //    {
+            //        string json = sr.ReadToEnd();
+            //        jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
+            //    }
+            //}
+            
+            numberOfQuestions = jsonQuestions.Count;
+
+            return numberOfQuestions;
         }
 
         private void checkedAnswerEvent(object sender, EventArgs e)
@@ -42,50 +115,89 @@ namespace Veritas
 
         }
 
+        public String getEndMessage()
+        {
+            String message = "";
+
+            if (getSystemLanguage() == "en")
+            {
+                message = "Congratulations you finished the Quiz";
+            }
+
+            if (getSystemLanguage() == "fr-CA")
+            {
+                message = "Félicitations, vous avez terminé le quiz";
+            }
+
+            if (getSystemLanguage() == "es")
+            {
+                message = "Felicidades has terminado el Quiz";
+            }
+
+            return message;
+        }
+
         private async void submitButton_Click(object sender, EventArgs e)
         {
-            
-            if(tagNum == rightAnswer )
+            //MessageBox.Show("tagNumber: " + tagNum + "  , RightAnswer: " + rightAnswer);
+
+            if (tagNum == rightAnswer)
             {
+                uncheckingRadioButtons();
                 //point systems
                 point++;
-                pointLabel.Text = $"Point: {point}/{totalQuestions}";
-                uncheckingRadioButtons();
 
-            }
-
-            if(currentQuestion == totalQuestions)
-            {
-                //MessageBox.Show("Weeee, you may restart or click back to return to the category page" 
-                //+ $"\nPoints: {point}/{totalQuestions}");
-                uncheckingRadioButtons();
                 pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
-                //endLabel.Text = "Weeee, you may restart or click back to return to the category page";
-
-                questionLabel.Text = "Weeee!!! the Game will restart by itself, " +
-                                     "you can click Back to return to the Category page";
+                //MessageBox.Show("tagNumber: " + tagNum + "  , RightAnswer: " + rightAnswer + "\nIF Right Answer Clicked: " + point +
+                //                 "Current Question: " + currentQuestion);
+                currentQuestion++;
 
                 
-                await Task.Delay(1000); //resets everything after 3 seconds
-                //Thread.Sleep(3000);
+                trivia(currentQuestion);
+
+            }
+            else
+            {
+                uncheckingRadioButtons();
+
+                pointLabel.Text = $"Point: {point}/{totalQuestions}";
+
+                //MessageBox.Show("tagNumber: " + tagNum + "  , RightAnswer: " + rightAnswer + "\nELSE Right Answer Clicked: " + point +
+                //                 "Current Question: " + currentQuestion);
+
+                currentQuestion++;
+                trivia(currentQuestion);
+            }
+            if (currentQuestion == totalQuestions)
+            {
+
+                uncheckingRadioButtons();
+
+                questionLabel.Text = getEndMessage();
+
+                submitButton.Enabled = false;
+                await Task.Delay(500); //resets everything after 3 seconds
+
                 resetTrivia();
+                currentQuestion = 0;
+                pointLabel.Text = $"Point: {0}/{totalQuestions}";
+
+                Thread.Sleep(2000);
+                submitButton.Enabled = true;
             }
 
-            uncheckingRadioButtons();
-
-            pointLabel.Text = $"Point: {point}/{totalQuestions}";
-            currentQuestion++;
-            trivia(currentQuestion); 
-            
         }
         public void resetTrivia()
         {
-            currentQuestion = 0;
-            trivia(currentQuestion);
-            point = 0;
-            endLabel.Text = "";
+            int reset = 0;
+            trivia(reset);
+
+            this.point = 0;
+            //endLabel.Text = "";
+            //MessageBox.Show("reset Right Answer Clicked: " + point);
         }
+
         public void uncheckingRadioButtons()
         {
             firstRadioButton.Checked = false;
@@ -93,41 +205,38 @@ namespace Veritas
             thirdRadioButton.Checked = false;
             fourthRadioButton.Checked = false;
         }
+
         private void trivia(int questionNumber)
         {
-            switch (questionNumber)
+            List<Questions> jsonQuestions = new List<Questions>();
+
+            using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
             {
-                case 1:
+                string json = sr.ReadToEnd();
+                jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
+            }
 
-                    questionLabel.Text = "What it 1 + 1";
+            //int i = questionNumber;
+            
+            if (questionNumber <= getNumberOfQuestions() - 1)
+            {
+                questionLabel.Text = jsonQuestions[questionNumber].Quiz;
+                firstRadioButton.Text = jsonQuestions[questionNumber].TagOne;   //tag 1
+                secondRadioButton.Text = jsonQuestions[questionNumber].TagTwo;       //tag 2   
+                thirdRadioButton.Text = jsonQuestions[questionNumber].TagTree;       //tag 3
+                fourthRadioButton.Text = jsonQuestions[questionNumber].TagFour; //tag 4
+                                                                                
+                rightAnswer = jsonQuestions[questionNumber].AnswerTag; //rightAnswer should be the same number as the radioButton Tag
+                //rightAnswer = jsonQuestions[i].AnswerTag;
+                //MessageBox.Show("Count= " + i);
 
-                    firstRadioButton.Text = "100000";   //tag 1
-                    secondRadioButton.Text = "2";       //tag 2   
-                    thirdRadioButton.Text = "-2";       //tag 3
-                    fourthRadioButton.Text = "The amount of brain cells left"; //tag 4
-
-                    //rightAnswer should be the same number as the radioButton Tag
-                    rightAnswer = 4;
-
-                    break;
-
-                case 2:
-                    questionLabel.Text = "Who's Merts favorite student?";
-
-                    firstRadioButton.Text = "Mubeen";     //tag 1
-                    secondRadioButton.Text = "Mert";    //tag 2
-                    thirdRadioButton.Text = "Leonella";    //tag 3
-                    fourthRadioButton.Text = "Valentin"; //tag 4
-
-                    //rightAnswer should be the same number as the radioButton Tag
-                    rightAnswer = 2;
-
-                    break;
-                //add more cases for more questions
-                //when you add more questions you will also have to increase the total number of questions
-                
+            }
+            else
+            {
+                questionNumber = 0;
             }
         }
+
         private void backButton_Click(object sender, EventArgs e)
         {
             CategoryForm categoryForm = new CategoryForm();
@@ -135,6 +244,7 @@ namespace Veritas
             this.Close();
 
         }
+
         private void ExitButton_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
