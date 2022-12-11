@@ -55,9 +55,11 @@
             this.mathButton.BackColor = System.Drawing.Color.Tan;
             this.mathButton.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.mathButton, "mathButton");
+            this.mathButton.ForeColor = System.Drawing.Color.Black;
             this.mathButton.Name = "mathButton";
             this.mathButton.UseVisualStyleBackColor = false;
             this.mathButton.Click += new System.EventHandler(this.mathButton_Click);
+            this.mathButton.MouseHover += new System.EventHandler(this.mathButton_MouseHover);
             // 
             // EnglishButton
             // 
@@ -67,6 +69,7 @@
             this.EnglishButton.Name = "EnglishButton";
             this.EnglishButton.UseVisualStyleBackColor = false;
             this.EnglishButton.Click += new System.EventHandler(this.EnglishButton_Click);
+            this.EnglishButton.MouseHover += new System.EventHandler(this.EnglishButton_MouseHover);
             // 
             // programmingButton
             // 
@@ -76,6 +79,7 @@
             this.programmingButton.Name = "programmingButton";
             this.programmingButton.UseVisualStyleBackColor = false;
             this.programmingButton.Click += new System.EventHandler(this.programmingButton_Click);
+            this.programmingButton.MouseHover += new System.EventHandler(this.programmingButton_MouseHover);
             // 
             // historyButton
             // 
@@ -85,6 +89,7 @@
             this.historyButton.Name = "historyButton";
             this.historyButton.UseVisualStyleBackColor = false;
             this.historyButton.Click += new System.EventHandler(this.historyButton_Click);
+            this.historyButton.MouseHover += new System.EventHandler(this.historyButton_MouseHover);
             // 
             // ExitCatButton
             // 
@@ -94,6 +99,7 @@
             this.ExitCatButton.Name = "ExitCatButton";
             this.ExitCatButton.UseVisualStyleBackColor = false;
             this.ExitCatButton.Click += new System.EventHandler(this.ExitCatButton_Click);
+            this.ExitCatButton.MouseHover += new System.EventHandler(this.ExitCatButton_MouseHover);
             // 
             // ExitButton
             // 
@@ -195,6 +201,7 @@
             this.Name = "CategoryForm";
             this.Opacity = 0D;
             this.Load += new System.EventHandler(this.CategoryForm_Load);
+            this.MouseHover += new System.EventHandler(this.CategoryForm_MouseHover);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

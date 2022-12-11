@@ -114,12 +114,57 @@ namespace Veritas
             Application.Restart();
         }
 
+        //--------------------------------------------------------------------------------------------------- Mert
         private void opacityTimer_Tick(object sender, EventArgs e)
         {
             if (Opacity == 1)
                 opacityTimer.Stop();
 
             Opacity += .1;
+        }
+
+        private void mathButton_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
+            mathButton.BackColor = Color.LightBlue;
+        }
+
+        private void historyButton_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
+            historyButton.BackColor = Color.LightBlue;
+        }
+
+        private void EnglishButton_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
+            EnglishButton.BackColor = Color.LightBlue;
+        }
+
+        private void programmingButton_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
+            programmingButton.BackColor = Color.LightBlue;
+        }
+
+        private void ExitCatButton_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
+            ExitCatButton.BackColor = Color.LightBlue;
+        }
+
+        public void clearButtons()
+        {
+            mathButton.BackColor = base.BackColor;
+            EnglishButton.BackColor = base.BackColor;
+            programmingButton.BackColor = base.BackColor;
+            historyButton.BackColor = base.BackColor;
+            ExitCatButton.BackColor = base.BackColor;
+        }
+
+        private void CategoryForm_MouseHover(object sender, EventArgs e)
+        {
+            clearButtons();
         }
     }
 }
