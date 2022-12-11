@@ -38,14 +38,14 @@
             this.fullExitButton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.opacityTimer = new System.Windows.Forms.Timer(this.components);
-            this.musicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.languagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).BeginInit();
+            this.musicPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.menuStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).BeginInit();
             this.SuspendLayout();
             // 
             // startButtom
@@ -115,12 +115,6 @@
             this.opacityTimer.Interval = 50;
             this.opacityTimer.Tick += new System.EventHandler(this.opacityTimer_Tick);
             // 
-            // musicPlayer
-            // 
-            resources.ApplyResources(this.musicPlayer, "musicPlayer");
-            this.musicPlayer.Name = "musicPlayer";
-            this.musicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicPlayer.OcxState")));
-            // 
             // menuStrip
             // 
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -156,11 +150,17 @@
             resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
             this.spanishToolStripMenuItem.Click += new System.EventHandler(this.spanishToolStripMenuItem_Click);
             // 
+            // musicPlayer
+            // 
+            resources.ApplyResources(this.musicPlayer, "musicPlayer");
+            this.musicPlayer.Name = "musicPlayer";
+            this.musicPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("musicPlayer.OcxState")));
+            // 
             // VeritasForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.musicPlayer);
             this.Controls.Add(this.fullExitButton);
             this.Controls.Add(this.ExitButton);
@@ -174,11 +174,12 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "VeritasForm";
             this.Opacity = 0D;
+            this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.VeritasForm_Load);
             this.MouseHover += new System.EventHandler(this.VeritasForm_MouseHover);
-            ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).EndInit();
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.musicPlayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

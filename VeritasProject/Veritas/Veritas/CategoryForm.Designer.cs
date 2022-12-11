@@ -166,7 +166,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.categoryLabel);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.ExitCatButton);

@@ -117,17 +117,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;questionLabel.Name" xml:space="preserve">
+    <value>questionLabel</value>
+  </data>
+  <data name="&gt;&gt;questionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;questionLabel.Parent" xml:space="preserve">
+    <value>questionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;questionLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="questionGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 47</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="questionGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="questionGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="questionGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>571, 186</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="questionGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;questionGroupBox.Name" xml:space="preserve">
+    <value>questionGroupBox</value>
+  </data>
+  <data name="&gt;&gt;questionGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;questionGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;questionGroupBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="questionLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Centaur, 18pt, style=Bold</value>
   </data>
   <data name="questionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 0</value>
+    <value>4, 0</value>
+  </data>
+  <data name="questionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="questionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 226</value>
+    <value>567, 184</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="questionLabel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -146,34 +189,6 @@
   <data name="&gt;&gt;questionLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="questionGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 58</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="questionGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="questionGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="questionGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>761, 229</value>
-  </data>
-  <data name="questionGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;questionGroupBox.Name" xml:space="preserve">
-    <value>questionGroupBox</value>
-  </data>
-  <data name="&gt;&gt;questionGroupBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;questionGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;questionGroupBox.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="backButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -181,13 +196,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 490</value>
+    <value>11, 398</value>
   </data>
   <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 43</value>
+    <value>101, 35</value>
   </data>
   <data name="backButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -214,13 +229,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="submitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 490</value>
+    <value>481, 398</value>
   </data>
   <data name="submitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="submitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 43</value>
+    <value>101, 35</value>
   </data>
   <data name="submitButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -247,13 +262,13 @@
     <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="firstRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 406</value>
+    <value>47, 330</value>
   </data>
   <data name="firstRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="firstRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 16</value>
+    <value>14, 13</value>
   </data>
   <data name="firstRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -277,13 +292,13 @@
     <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="secondRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 406</value>
+    <value>363, 330</value>
   </data>
   <data name="secondRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="secondRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 16</value>
+    <value>14, 13</value>
   </data>
   <data name="secondRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -307,13 +322,13 @@
     <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="thirdRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 450</value>
+    <value>47, 366</value>
   </data>
   <data name="thirdRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="thirdRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 16</value>
+    <value>14, 13</value>
   </data>
   <data name="thirdRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -337,13 +352,13 @@
     <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
   <data name="fourthRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 450</value>
+    <value>363, 366</value>
   </data>
   <data name="fourthRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="fourthRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 16</value>
+    <value>14, 13</value>
   </data>
   <data name="fourthRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -367,13 +382,13 @@
     <value>Myanmar Text, 6.75pt</value>
   </data>
   <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>741, -1</value>
+    <value>556, -1</value>
   </data>
   <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 27</value>
+    <value>38, 22</value>
   </data>
   <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -397,10 +412,13 @@
     <value>Microsoft Sans Serif, 10.2pt, style=Bold</value>
   </data>
   <data name="pointLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 304</value>
+    <value>11, 247</value>
+  </data>
+  <data name="pointLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="pointLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 33</value>
+    <value>87, 27</value>
   </data>
   <data name="pointLabel.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -427,10 +445,13 @@
     <value>Microsoft Sans Serif, 10.2pt</value>
   </data>
   <data name="endLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>233, 490</value>
+    <value>175, 398</value>
+  </data>
+  <data name="endLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="endLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 43</value>
+    <value>244, 35</value>
   </data>
   <data name="endLabel.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -453,29 +474,29 @@
   <data name="&gt;&gt;endLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="musicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 26</value>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
   </data>
-  <data name="musicToolStripMenuItem.Text" xml:space="preserve">
-    <value>Music</value>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help?</value>
   </data>
   <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
+    <value>177, 22</value>
   </data>
   <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="musicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="musicToolStripMenuItem.Text" xml:space="preserve">
+    <value>Music</value>
+  </data>
   <data name="backToMainMenuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 26</value>
+    <value>177, 22</value>
   </data>
   <data name="backToMainMenuToolStripMenuItem.Text" xml:space="preserve">
     <value>Back to Main Menu</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 24</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help?</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -484,10 +505,10 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 2, 0, 2</value>
+    <value>4, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>791, 28</value>
+    <value>593, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -511,13 +532,10 @@
     <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
   </data>
   <data name="timeLeftLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>556, 304</value>
-  </data>
-  <data name="timeLeftLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>417, 247</value>
   </data>
   <data name="timeLeftLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 28</value>
+    <value>165, 23</value>
   </data>
   <data name="timeLeftLabel.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -543,14 +561,17 @@
   <metadata name="timeLimit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
+  <metadata name="animateAnswer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>234, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>791, 559</value>
+    <value>593, 454</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3528,7 +3549,7 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -3564,6 +3585,12 @@
     <value>timeLimit</value>
   </data>
   <data name="&gt;&gt;timeLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;animateAnswer.Name" xml:space="preserve">
+    <value>animateAnswer</value>
+  </data>
+  <data name="&gt;&gt;animateAnswer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

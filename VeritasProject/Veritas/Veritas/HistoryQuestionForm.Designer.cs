@@ -48,6 +48,7 @@
             this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timeLeftLabel = new System.Windows.Forms.Label();
             this.timeLimit = new System.Windows.Forms.Timer(this.components);
+            this.animateAnswer = new System.Windows.Forms.Timer(this.components);
             this.questionGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -60,7 +61,7 @@
             // pointLabel
             // 
             resources.ApplyResources(this.pointLabel, "pointLabel");
-            this.pointLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pointLabel.ForeColor = System.Drawing.Color.Black;
             this.pointLabel.Name = "pointLabel";
             // 
             // ExitButton
@@ -75,7 +76,7 @@
             // fourthRadioButton
             // 
             resources.ApplyResources(this.fourthRadioButton, "fourthRadioButton");
-            this.fourthRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.fourthRadioButton.ForeColor = System.Drawing.Color.Black;
             this.fourthRadioButton.Name = "fourthRadioButton";
             this.fourthRadioButton.Tag = "4";
             this.fourthRadioButton.UseVisualStyleBackColor = true;
@@ -84,7 +85,7 @@
             // thirdRadioButton
             // 
             resources.ApplyResources(this.thirdRadioButton, "thirdRadioButton");
-            this.thirdRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.thirdRadioButton.ForeColor = System.Drawing.Color.Black;
             this.thirdRadioButton.Name = "thirdRadioButton";
             this.thirdRadioButton.Tag = "3";
             this.thirdRadioButton.UseVisualStyleBackColor = true;
@@ -93,7 +94,7 @@
             // secondRadioButton
             // 
             resources.ApplyResources(this.secondRadioButton, "secondRadioButton");
-            this.secondRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.secondRadioButton.ForeColor = System.Drawing.Color.Black;
             this.secondRadioButton.Name = "secondRadioButton";
             this.secondRadioButton.Tag = "2";
             this.secondRadioButton.UseVisualStyleBackColor = true;
@@ -102,7 +103,7 @@
             // firstRadioButton
             // 
             resources.ApplyResources(this.firstRadioButton, "firstRadioButton");
-            this.firstRadioButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.firstRadioButton.ForeColor = System.Drawing.Color.Black;
             this.firstRadioButton.Name = "firstRadioButton";
             this.firstRadioButton.Tag = "1";
             this.firstRadioButton.UseVisualStyleBackColor = true;
@@ -178,14 +179,26 @@
             // 
             this.timeLeftLabel.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.timeLeftLabel, "timeLeftLabel");
-            this.timeLeftLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.timeLeftLabel.ForeColor = System.Drawing.Color.Black;
             this.timeLeftLabel.Name = "timeLeftLabel";
+            // 
+            // timeLimit
+            // 
+            this.timeLimit.Enabled = true;
+            this.timeLimit.Interval = 1000;
+            this.timeLimit.Tick += new System.EventHandler(this.timeLimit_Tick);
+            // 
+            // animateAnswer
+            // 
+            this.animateAnswer.Enabled = true;
+            this.animateAnswer.Interval = 800;
+            this.animateAnswer.Tick += new System.EventHandler(this.animateAnswer_Tick);
             // 
             // HistoryQuestionForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.IndianRed;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.timeLeftLabel);
             this.Controls.Add(this.endLabel);
             this.Controls.Add(this.pointLabel);
@@ -228,5 +241,6 @@
         private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
         private System.Windows.Forms.Label timeLeftLabel;
         private System.Windows.Forms.Timer timeLimit;
+        private System.Windows.Forms.Timer animateAnswer;
     }
 }

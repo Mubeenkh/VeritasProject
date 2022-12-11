@@ -139,10 +139,21 @@ namespace Veritas
 
         private async void submitButton_Click(object sender, EventArgs e)
         {
+            //------------------------------------------------------------------------------------------ Mert
+            //Reset Timer on Click
+            timerLimit = 60;
+
             //MessageBox.Show("tagNumber: " + tagNum + "  , RightAnswer: " + rightAnswer);
 
+            //---------------------- Mubeen ----------------------//
             if (tagNum == rightAnswer)
             {
+                //------------------------------------------------------------------------------------------ Mert
+                //Animate the if Answer is Right
+                isAnswerCorrect = true;
+                animateAnswer.Start();
+
+                //---------------------- Mubeen ----------------------//
                 uncheckingRadioButtons();
                 //point systems
                 point++;
@@ -159,6 +170,11 @@ namespace Veritas
             }
             else
             {
+                //------------------------------------------------------------------------------------------ Mert
+                isAnswerCorrect = false;
+                animateAnswer.Start();
+
+                //---------------------- Mubeen ----------------------//
                 uncheckingRadioButtons();
 
                 pointLabel.Text = $"Point: {point}/{totalQuestions}";
@@ -171,7 +187,12 @@ namespace Veritas
             }
             if (currentQuestion == totalQuestions)
             {
+                //---------------------------------------------------------------------------------------------------- Mert
+                //Stop the Timer if Player has finished answering all questions and Reset timer back to 60 secs
+                timeLimit.Stop();
+                timerLimit = 60;
 
+                //---------------------- Mubeen ----------------------//
                 uncheckingRadioButtons();
 
                 questionLabel.Text = getEndMessage();
@@ -196,6 +217,10 @@ namespace Veritas
             this.point = 0;
             //endLabel.Text = "";
             //MessageBox.Show("reset Right Answer Clicked: " + point);
+
+            //---------------------------------------------------------------------------------------------------- Mert
+            //Restarting the timer
+            timeLimit.Start();
         }
 
         public void uncheckingRadioButtons()
@@ -297,6 +322,62 @@ namespace Veritas
         private void backToMainMenuToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        //---------------------------------------------------------------------------------------------------------- Mert
+        //Breathing animation
+        //Right or Wrong Answers Animation Setup
+        int animateAnswerLength = 2;
+        Boolean isAnswerCorrect = false;
+        int timerLimit = 60;
+
+        private void timeLimit_Tick(object sender, EventArgs e)
+        {
+            timeLeftLabel.Text = "Time: " + timerLimit-- + " Seconds";
+            if (timerLimit == 0)
+            {
+                isAnswerCorrect = false;
+                animateAnswer.Start();
+
+                //Move to the next question Setup
+                currentQuestion++;
+
+                //Uncheck the radio buttons
+                uncheckingRadioButtons();
+                trivia(currentQuestion);
+
+                //Reset timer on Next Question
+                timerLimit = 60;
+            }
+        }
+
+        private void animateAnswer_Tick(object sender, EventArgs e)
+        {
+            animateAnswerLength--;
+
+            //Animate per 1 seconds Tick and animate based on timer
+            if (isAnswerCorrect && animateAnswerLength % 2 == 1)
+            {
+                this.BackColor = Color.DarkGreen;
+            }
+            else if (!isAnswerCorrect && animateAnswerLength % 2 == 1)
+            {
+                this.BackColor = Color.IndianRed;
+            }
+            if (animateAnswerLength == 0)
+            {
+                this.BackColor = Color.Bisque;
+            }
+
+            //Stop timer animation after 2 seconds
+            if (animateAnswerLength == 0)
+            {
+                //Stop the timer
+                animateAnswer.Stop();
+
+                //Reset the animation length back to 2 seconds
+                animateAnswerLength = 2;
+            }
         }
     }
 }
