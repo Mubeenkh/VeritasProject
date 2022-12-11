@@ -35,16 +35,7 @@ namespace Veritas
             this.StartPosition = FormStartPosition.CenterScreen;
             Current = this;
             clickSound = new SoundPlayer(@"clickSound.wav");
-        }
-
-        private void VeritasForm_Load(object sender, EventArgs e)
-        {
-            musicPlayer.URL = @"Polish Cow Full Version.wav";
-            musicPlayer.settings.playCount = 9999;
-            musicPlayer.Visible = false;
-            musicPlayer.Ctlcontrols.play();
-            musicPlayer.settings.volume = 50;
-
+            
             //Title Animation ----------------------------------------------------------------------------------- Mert
             titleText = veritasLabel.Text;  //The Normal Font
             titleLength = titleText.Length;
@@ -55,7 +46,17 @@ namespace Veritas
 
             timer1.Interval= 1000;
             timer1.Start(); //Starting the timer
+            
             opacityTimer.Start();
+        }
+
+        private void VeritasForm_Load(object sender, EventArgs e)
+        {
+            musicPlayer.URL = @"Polish Cow Full Version.wav";
+            musicPlayer.settings.playCount = 9999;
+            musicPlayer.Visible = false;
+            musicPlayer.Ctlcontrols.play();
+            musicPlayer.settings.volume = 50;
         }
 
         private void startButtom_Click(object sender, EventArgs e)

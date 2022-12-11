@@ -42,6 +42,7 @@ namespace Veritas
 
             MessageBox.Show("Language: " + getSystemLanguage());
 
+            opacityTimer.Start();
         }
 
         //Checks whats language the Game is currently set to
@@ -327,6 +328,14 @@ namespace Veritas
                 //Reset the animation length back to 2 seconds
                 animateAnswerLength = 2;
             }
+        }
+
+        private void opacityTimer_Tick(object sender, EventArgs e)
+        {
+            if (Opacity == 1)
+                opacityTimer.Stop();
+
+            Opacity += .1;
         }
     }
 }

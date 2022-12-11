@@ -29,6 +29,8 @@ namespace Veritas
             InitializeComponent();
             //this.StartPosition = FormStartPosition.CenterScreen;
 
+            opacityTimer.Start();
+
             trivia(currentQuestion);
 
             totalQuestions = getNumberOfQuestions();
@@ -41,7 +43,6 @@ namespace Veritas
             pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
             MessageBox.Show("Language: " + getSystemLanguage());
-
         }
 
         //Checks whats language the Game is currently set to
@@ -296,7 +297,7 @@ namespace Veritas
             {
                 this.BackColor = Color.DarkGreen;
             }
-            else if (!isAnswerCorrect && animateAnswerLength % 2 == 1)
+            if (!isAnswerCorrect && animateAnswerLength % 2 == 1)
             {
                 this.BackColor = Color.IndianRed;
             }
@@ -314,6 +315,14 @@ namespace Veritas
                 //Reset the animation length back to 2 seconds
                 animateAnswerLength = 2;
             }
+        }
+
+        private void opacityTimer_Tick(object sender, EventArgs e)
+        {
+            if (Opacity == 1)
+                opacityTimer.Stop();
+
+            Opacity += .1;
         }
     }
 }

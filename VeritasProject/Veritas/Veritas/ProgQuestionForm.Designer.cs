@@ -49,6 +49,7 @@
             this.timeLeftLabel = new System.Windows.Forms.Label();
             this.timeLimit = new System.Windows.Forms.Timer(this.components);
             this.animateAnswer = new System.Windows.Forms.Timer(this.components);
+            this.opacityTimer = new System.Windows.Forms.Timer(this.components);
             this.questionGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -198,6 +199,12 @@
             this.animateAnswer.Interval = 800;
             this.animateAnswer.Tick += new System.EventHandler(this.animateAnswer_Tick);
             // 
+            // opacityTimer
+            // 
+            this.opacityTimer.Enabled = true;
+            this.opacityTimer.Interval = 200;
+            this.opacityTimer.Tick += new System.EventHandler(this.opacityTimer_Tick);
+            // 
             // ProgQuestionForm
             // 
             resources.ApplyResources(this, "$this");
@@ -218,6 +225,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ProgQuestionForm";
+            this.Opacity = 0D;
             this.Load += new System.EventHandler(this.ProgQuestionForm_Load);
             this.questionGroupBox.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
@@ -248,5 +256,6 @@
         private System.Windows.Forms.Label timeLeftLabel;
         private System.Windows.Forms.Timer timeLimit;
         private System.Windows.Forms.Timer animateAnswer;
+        private System.Windows.Forms.Timer opacityTimer;
     }
 }

@@ -22,6 +22,8 @@ namespace Veritas
             {
                 musicToolStripMenuItem.Checked = true;
             }
+
+            opacityTimer.Start();
         }
 
         private void ExitCatButton_Click(object sender, EventArgs e)
@@ -110,6 +112,14 @@ namespace Veritas
             var changeLanguage = new ChangeLanguage();
             changeLanguage.UpdateConfig("language", "es");
             Application.Restart();
+        }
+
+        private void opacityTimer_Tick(object sender, EventArgs e)
+        {
+            if (Opacity == 1)
+                opacityTimer.Stop();
+
+            Opacity += .1;
         }
     }
 }
