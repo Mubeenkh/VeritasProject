@@ -24,6 +24,25 @@ namespace Veritas
             }
 
             opacityTimer.Start();
+
+            if (!Login.loginUser)
+            {
+                mathButton.Enabled = false;
+                historyButton.Enabled = false;
+                programmingButton.Enabled = false;
+                EnglishButton.Enabled = false;
+                loginToolStripMenuItem.Text = "Login";
+                loginToolStripMenuItem.Enabled = true;
+            }
+            else
+            {
+                mathButton.Enabled = true;
+                historyButton.Enabled = true;
+                programmingButton.Enabled = true;
+                EnglishButton.Enabled = true;
+                loginToolStripMenuItem.Text = "Connected";
+                loginToolStripMenuItem.Enabled = false;
+            }
         }
 
         private void ExitCatButton_Click(object sender, EventArgs e)
@@ -165,6 +184,11 @@ namespace Veritas
         private void CategoryForm_MouseHover(object sender, EventArgs e)
         {
             clearButtons();
+        }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

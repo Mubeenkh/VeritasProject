@@ -126,13 +126,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="mathButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 93</value>
+    <value>132, 114</value>
   </data>
   <data name="mathButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="mathButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 42</value>
+    <value>527, 52</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="mathButton.TabIndex" type="System.Int32, mscorlib">
@@ -160,13 +160,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="EnglishButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 185</value>
+    <value>132, 228</value>
   </data>
   <data name="EnglishButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="EnglishButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 42</value>
+    <value>527, 52</value>
   </data>
   <data name="EnglishButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -193,13 +193,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="programmingButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 231</value>
+    <value>132, 284</value>
   </data>
   <data name="programmingButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="programmingButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 42</value>
+    <value>527, 52</value>
   </data>
   <data name="programmingButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -226,13 +226,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="historyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 139</value>
+    <value>132, 171</value>
   </data>
   <data name="historyButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="historyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 42</value>
+    <value>527, 52</value>
   </data>
   <data name="historyButton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -259,13 +259,13 @@
     <value>Century Gothic, 9.75pt, style=Bold</value>
   </data>
   <data name="ExitCatButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 277</value>
+    <value>132, 341</value>
   </data>
   <data name="ExitCatButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ExitCatButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 42</value>
+    <value>527, 52</value>
   </data>
   <data name="ExitCatButton.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -292,13 +292,13 @@
     <value>Myanmar Text, 6.75pt</value>
   </data>
   <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>542, -2</value>
+    <value>723, -2</value>
   </data>
   <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 22</value>
+    <value>51, 27</value>
   </data>
   <data name="ExitButton.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -322,13 +322,10 @@
     <value>Tw Cen MT Condensed Extra Bold, 36pt</value>
   </data>
   <data name="categoryLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 31</value>
-  </data>
-  <data name="categoryLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>132, 38</value>
   </data>
   <data name="categoryLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>395, 58</value>
+    <value>527, 71</value>
   </data>
   <data name="categoryLabel.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -354,56 +351,32 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="musicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 22</value>
-  </data>
-  <data name="musicToolStripMenuItem.Text" xml:space="preserve">
-    <value>Music</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+    <value>55, 24</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Help</value>
   </data>
-  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 22</value>
-  </data>
-  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 22</value>
-  </data>
-  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
-    <value>French</value>
-  </data>
-  <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 22</value>
-  </data>
-  <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
   <data name="languagesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
+    <value>94, 24</value>
   </data>
   <data name="languagesToolStripMenuItem.Text" xml:space="preserve">
     <value>Languages</value>
+  </data>
+  <data name="loginToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="loginToolStripMenuItem.Text" xml:space="preserve">
+    <value>Login</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 0, 2</value>
+    <value>5, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>580, 24</value>
+    <value>773, 28</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -423,14 +396,47 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 26</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="musicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 26</value>
+  </data>
+  <data name="musicToolStripMenuItem.Text" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="spanishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
   <metadata name="opacityTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>226, 17</value>
   </metadata>
   <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 65</value>
+    <value>599, 80</value>
+  </data>
+  <data name="dateTimePicker1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 20</value>
+    <value>265, 22</value>
   </data>
   <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -451,10 +457,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>580, 356</value>
+    <value>773, 438</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3432,7 +3438,7 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -3487,6 +3493,12 @@
   </data>
   <data name="&gt;&gt;opacityTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginToolStripMenuItem.Name" xml:space="preserve">
+    <value>loginToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;loginToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CategoryForm</value>

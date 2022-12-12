@@ -48,6 +48,9 @@ namespace Veritas
             timer1.Start(); //Starting the timer
             
             opacityTimer.Start();
+
+            Login login = new Login();
+            login.Show();
         }
 
         private void VeritasForm_Load(object sender, EventArgs e)

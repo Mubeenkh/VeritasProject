@@ -47,6 +47,7 @@
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opacityTimer = new System.Windows.Forms.Timer(this.components);
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,7 +121,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.helpToolStripMenuItem,
-            this.languagesToolStripMenuItem});
+            this.languagesToolStripMenuItem,
+            this.loginToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -182,6 +184,12 @@
             resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
             this.dateTimePicker1.Name = "dateTimePicker1";
             // 
+            // loginToolStripMenuItem
+            // 
+            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
+            resources.ApplyResources(this.loginToolStripMenuItem, "loginToolStripMenuItem");
+            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
+            // 
             // CategoryForm
             // 
             resources.ApplyResources(this, "$this");
@@ -228,5 +236,6 @@
         private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
         private System.Windows.Forms.Timer opacityTimer;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
     }
 }

@@ -336,3 +336,38 @@ E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project 2.0\V
 E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project 2.0\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CopyComplete
 E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project 2.0\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.exe
 E:\Suferring 3 - Fall Semester 2022 - 2023\Application Development\Project 2.0\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.pdb
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\es\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr-CA\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\fr\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\ssy\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.fr.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CategoryForm.ssy.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.EnglishQuestionForm.fr.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.HistoryQuestionForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.fr.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.VeritasForm.ssy.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.MathQuestionForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.es.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.fr-CA.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ProgQuestionForm.ssy.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\es\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr-CA\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\fr\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\ssy\Veritas.resources.dll
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.csproj.CopyComplete
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.Login.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.CreateAccount.resources
+C:\Users\LEONELLA\Documents\Fall 2022\Application Developpement\VeritasProject\VeritasProject\Veritas\Veritas\obj\Debug\Veritas.ForgotPassword.resources
