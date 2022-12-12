@@ -174,11 +174,11 @@ namespace Veritas
 
         public void clearButtons()
         {
-            mathButton.BackColor = base.BackColor;
-            EnglishButton.BackColor = base.BackColor;
-            programmingButton.BackColor = base.BackColor;
-            historyButton.BackColor = base.BackColor;
-            ExitCatButton.BackColor = base.BackColor;
+            mathButton.BackColor = Color.Tan;
+            EnglishButton.BackColor = Color.Tan;
+            programmingButton.BackColor = Color.Tan;
+            historyButton.BackColor = Color.Tan;
+            ExitCatButton.BackColor = Color.Tan;
         }
 
         private void CategoryForm_MouseHover(object sender, EventArgs e)

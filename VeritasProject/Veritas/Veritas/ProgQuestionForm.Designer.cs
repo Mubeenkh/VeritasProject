@@ -44,7 +44,7 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.timeLeftLabel = new System.Windows.Forms.Label();
             this.timeLimit = new System.Windows.Forms.Timer(this.components);
@@ -135,22 +135,22 @@
             resources.ApplyResources(this.pointLabel, "pointLabel");
             this.pointLabel.ForeColor = System.Drawing.Color.Black;
             this.pointLabel.Name = "pointLabel";
-            this.pointLabel.Click += new System.EventHandler(this.pointLabel_Click);
+            //this.pointLabel.Click += new System.EventHandler(this.pointLabel_Click);
             // 
             // endLabel
             // 
             resources.ApplyResources(this.endLabel, "endLabel");
             this.endLabel.Name = "endLabel";
-            this.endLabel.Click += new System.EventHandler(this.endLabel_Click);
+            //this.endLabel.Click += new System.EventHandler(this.endLabel_Click);
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem,
-            this.backToMainMenuToolStripMenuItem});
+            this.addQuestionToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
+            //this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
             // 
@@ -165,11 +165,11 @@
             resources.ApplyResources(this.musicToolStripMenuItem, "musicToolStripMenuItem");
             this.musicToolStripMenuItem.Click += new System.EventHandler(this.soundToolStripMenuItem_Click);
             // 
-            // backToMainMenuToolStripMenuItem
+            // addQuestionToolStripMenuItem
             // 
-            this.backToMainMenuToolStripMenuItem.Name = "backToMainMenuToolStripMenuItem";
-            resources.ApplyResources(this.backToMainMenuToolStripMenuItem, "backToMainMenuToolStripMenuItem");
-            this.backToMainMenuToolStripMenuItem.Click += new System.EventHandler(this.backToMainMenuToolStripMenuItem_Click);
+            this.addQuestionToolStripMenuItem.Name = "addQuestionToolStripMenuItem";
+            resources.ApplyResources(this.addQuestionToolStripMenuItem, "addQuestionToolStripMenuItem");
+            this.addQuestionToolStripMenuItem.Click += new System.EventHandler(this.addQuestionToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -178,7 +178,7 @@
             this.helpToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            //this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // timeLeftLabel
             // 
@@ -251,11 +251,11 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label timeLeftLabel;
         private System.Windows.Forms.Timer timeLimit;
         private System.Windows.Forms.Timer animateAnswer;
         private System.Windows.Forms.Timer opacityTimer;
+        private System.Windows.Forms.ToolStripMenuItem addQuestionToolStripMenuItem;
     }
 }

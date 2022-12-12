@@ -27,7 +27,6 @@ namespace Veritas
         public HistoryQuestionForm()
         {
             InitializeComponent();
-            //this.StartPosition = FormStartPosition.CenterScreen;
 
             opacityTimer.Start();
 
@@ -42,7 +41,7 @@ namespace Veritas
 
             pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
-            MessageBox.Show("Language: " + getSystemLanguage());
+           //MessageBox.Show("Language: " + getSystemLanguage());
         }
 
         //Checks whats language the Game is currently set to
@@ -323,6 +322,18 @@ namespace Veritas
                 opacityTimer.Stop();
 
             Opacity += .1;
+        }
+
+        private void addQuestionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryForm categoryForm = new CategoryForm();
+            categoryForm.Show();
+
+            ViewAddForm viewAddForm = new ViewAddForm();
+            viewAddForm.getFilePath("..\\..\\HistoryQuestions_" + getSystemLanguage() + ".json");
+            viewAddForm.Show();
+
+            this.Close();
         }
     }
 }

@@ -38,7 +38,7 @@ namespace Veritas
 
             pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
-            MessageBox.Show("Language: " + getSystemLanguage());
+            //MessageBox.Show("Language: " + getSystemLanguage());
 
             opacityTimer.Start();
         }
@@ -319,6 +319,18 @@ namespace Veritas
                 opacityTimer.Stop();
 
             Opacity += .1;
+        }
+
+        private void addQuestionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryForm categoryForm = new CategoryForm();
+            categoryForm.Show();
+
+            ViewAddForm viewAddForm = new ViewAddForm();
+            viewAddForm.getFilePath("..\\..\\MathQuestions_" + getSystemLanguage() + ".json");
+            viewAddForm.Show();
+
+            this.Close();
         }
     }
 }

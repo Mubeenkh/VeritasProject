@@ -45,7 +45,7 @@
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.musicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backToMainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timeLeftLabel = new System.Windows.Forms.Label();
             this.timeLimit = new System.Windows.Forms.Timer(this.components);
             this.animateAnswer = new System.Windows.Forms.Timer(this.components);
@@ -153,7 +153,7 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem,
-            this.backToMainMenuToolStripMenuItem});
+            this.addQuestionToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
@@ -170,11 +170,11 @@
             resources.ApplyResources(this.musicToolStripMenuItem, "musicToolStripMenuItem");
             this.musicToolStripMenuItem.Click += new System.EventHandler(this.musicToolStripMenuItem_Click);
             // 
-            // backToMainMenuToolStripMenuItem
+            // addQuestionToolStripMenuItem
             // 
-            this.backToMainMenuToolStripMenuItem.Name = "backToMainMenuToolStripMenuItem";
-            resources.ApplyResources(this.backToMainMenuToolStripMenuItem, "backToMainMenuToolStripMenuItem");
-            this.backToMainMenuToolStripMenuItem.Click += new System.EventHandler(this.backToMainMenuToolStripMenuItem_Click);
+            this.addQuestionToolStripMenuItem.Name = "addQuestionToolStripMenuItem";
+            resources.ApplyResources(this.addQuestionToolStripMenuItem, "addQuestionToolStripMenuItem");
+            this.addQuestionToolStripMenuItem.Click += new System.EventHandler(this.addQuestionToolStripMenuItem_Click);
             // 
             // timeLeftLabel
             // 
@@ -246,10 +246,10 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem musicToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem backToMainMenuToolStripMenuItem;
         private System.Windows.Forms.Label timeLeftLabel;
         private System.Windows.Forms.Timer timeLimit;
         private System.Windows.Forms.Timer animateAnswer;
         private System.Windows.Forms.Timer opacityTimer;
+        private System.Windows.Forms.ToolStripMenuItem addQuestionToolStripMenuItem;
     }
 }

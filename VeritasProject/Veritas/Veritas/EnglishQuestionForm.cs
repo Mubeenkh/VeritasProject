@@ -40,7 +40,7 @@ namespace Veritas
 
             pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
-            MessageBox.Show("Language: " + getSystemLanguage());
+            //MessageBox.Show("Language: " + getSystemLanguage());
 
             opacityTimer.Start();
         }
@@ -81,11 +81,6 @@ namespace Veritas
                 jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
             }
 
-            //using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\EnglishQuestions_" + getSystemLanguage() + ".json")))
-            //{
-            //    string json = sr.ReadToEnd();
-            //    jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
-            //}
 
             numberOfQuestions = jsonQuestions.Count;
             return numberOfQuestions;
@@ -218,12 +213,6 @@ namespace Veritas
                 jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
             }
 
-            //using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\EnglishQuestions_" + getSystemLanguage() + ".json")))
-            //{
-            //    string json = sr.ReadToEnd();
-            //    jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
-            //}
-
             if (questionNumber <= getNumberOfQuestions() - 1)
             {
                 questionLabel.Text = jsonQuestions[questionNumber].Quiz;
@@ -336,6 +325,18 @@ namespace Veritas
                 opacityTimer.Stop();
 
             Opacity += .1;
+        }
+
+        private void addQuestionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryForm categoryForm = new CategoryForm();
+            categoryForm.Show();
+
+            ViewAddForm viewAddForm = new ViewAddForm();
+            viewAddForm.getFilePath("..\\..\\EnglishQuestions_en.json");
+            viewAddForm.Show();
+
+            this.Close();
         }
     }
 }

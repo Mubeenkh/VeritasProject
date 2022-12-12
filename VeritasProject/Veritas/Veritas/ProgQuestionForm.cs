@@ -41,7 +41,7 @@ namespace Veritas
 
             pointLabel.Text = $"Point: {point}/{totalQuestions}";
 
-            MessageBox.Show("Language: " + getSystemLanguage());
+            //MessageBox.Show("Language: " + getSystemLanguage());
 
             opacityTimer.Start();
         }
@@ -74,33 +74,13 @@ namespace Veritas
             int numberOfQuestions = 0;
             List<Questions> jsonQuestions = new List<Questions>();
 
-            //if(getSystemLanguage() == "en")
-            //{
-                using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
-                {
-                    string json = sr.ReadToEnd();
-                    jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
 
-                }
+            using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
+            {
+                string json = sr.ReadToEnd();
+                jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
 
-            //}
-            //if( getSystemLanguage() == "es")
-            //{
-            //    using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
-            //    {
-            //        string json = sr.ReadToEnd();
-            //        jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
-
-            //    }
-            //}
-            //if( getSystemLanguage() == "fr-CA")
-            //{
-            //    using (StreamReader sr = new StreamReader(Path.GetFullPath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json")))
-            //    {
-            //        string json = sr.ReadToEnd();
-            //        jsonQuestions = JsonConvert.DeserializeObject<List<Questions>>(json);
-            //    }
-            //}
+            }
             
             numberOfQuestions = jsonQuestions.Count;
 
@@ -300,31 +280,6 @@ namespace Veritas
 
         }
 
-        private void endLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pointLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void backToMainMenuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         //---------------------------------------------------------------------------------------------------------- Mert
         //Breathing animation
         //Right or Wrong Answers Animation Setup
@@ -387,6 +342,18 @@ namespace Veritas
                 opacityTimer.Stop();
 
             Opacity += .1;
+        }
+
+        private void addQuestionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CategoryForm categoryForm = new CategoryForm();
+            categoryForm.Show();
+
+            ViewAddForm viewAddForm = new ViewAddForm();
+            viewAddForm.getFilePath("..\\..\\ProgQuestions_" + getSystemLanguage() + ".json");
+            viewAddForm.Show();
+
+            this.Close();
         }
     }
 }

@@ -45,9 +45,8 @@
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.frenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spanishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.opacityTimer = new System.Windows.Forms.Timer(this.components);
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opacityTimer = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -173,29 +172,23 @@
             resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
             this.spanishToolStripMenuItem.Click += new System.EventHandler(this.spanishToolStripMenuItem_Click);
             // 
-            // opacityTimer
-            // 
-            this.opacityTimer.Enabled = true;
-            this.opacityTimer.Interval = 50;
-            this.opacityTimer.Tick += new System.EventHandler(this.opacityTimer_Tick);
-            // 
-            // dateTimePicker1
-            // 
-            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            // 
             // loginToolStripMenuItem
             // 
             this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
             resources.ApplyResources(this.loginToolStripMenuItem, "loginToolStripMenuItem");
             this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
+            // opacityTimer
+            // 
+            this.opacityTimer.Enabled = true;
+            this.opacityTimer.Interval = 50;
+            this.opacityTimer.Tick += new System.EventHandler(this.opacityTimer_Tick);
+            // 
             // CategoryForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.categoryLabel);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.ExitCatButton);
@@ -235,7 +228,6 @@
         private System.Windows.Forms.ToolStripMenuItem frenchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spanishToolStripMenuItem;
         private System.Windows.Forms.Timer opacityTimer;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
     }
 }

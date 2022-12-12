@@ -1,42 +1,42 @@
 [
   {
-    "Quiz": "1. What's 1+1",
-    "TagOne": "10000",
-    "TagTwo": "2",
-    "TagTree": "-2",
-    "TagFour": "The amount of brain cells left",
-    "AnswerTag": 2
-  },
-  {
-    "Quiz": "2. Who's Merts favorite student?",
-    "TagOne": "Mubeen",
-    "TagTwo": "Mert",
-    "TagTree": "Leonella",
-    "TagFour": "Rachelle",
-    "AnswerTag": 2
-  },
-  {
-    "Quiz": "3. What's 2+2",
-    "TagOne": "986532",
-    "TagTwo": "8",
-    "TagTree": "4",
-    "TagFour": "5648",
-    "AnswerTag": 3
-  },
-  {
-    "Quiz": "4. What's 4+4",
-    "TagOne": "8",
-    "TagTwo": "2",
-    "TagTree": "4",
-    "TagFour": "0",
+    "Quiz": "1. Who was pythagoras?",
+    "TagOne": "A philosopher in greece",
+    "TagTwo": "A Mathematician in greece",
+    "TagTree": "A Mathematician in Rome",
+    "TagFour": "A Philosopher in Rome",
     "AnswerTag": 1
   },
   {
-    "Quiz": "5. What's 1+4",
-    "TagOne": "8",
-    "TagTwo": "2",
-    "TagTree": "4",
-    "TagFour": "5",
-    "AnswerTag": 4
+    "Quiz": "2. Where did Math Originate from?",
+    "TagOne": "Ancient Greece",
+    "TagTwo": "Ancient Rome",
+    "TagTree": "Ancient Sumerians",
+    "TagFour": "Ancient America",
+    "AnswerTag": 3
+  },
+  {
+    "Quiz": "3. What is the value of pi?",
+    "TagOne": "3.14159265359",
+    "TagTwo": "3.14159263591",
+    "TagTree": "3.1415925999",
+    "TagFour": "3.1415929659",
+    "AnswerTag": 1
+  },
+  {
+    "Quiz": "4. What do you call a polygon with 101 sides?",
+    "TagOne": "chiliagon",
+    "TagTwo": "Myriagon",
+    "TagTree": "hectakaihenagon",
+    "TagFour": "Circle",
+    "AnswerTag": 3
+  },
+  {
+    "Quiz": "5. find the derivative: f(x) = 2x^5 + 9y^6",
+    "TagOne": "f'(x) = 5x^2 + 6y^9",
+    "TagTwo": "f'(x) = 10x^4 + 54y^5",
+    "TagTree": "f'(x) = 10x^5 + 54y^4",
+    "TagFour": "f'(x) = 7x^5 + 15y^5",
+    "AnswerTag": 2
   }
 ]

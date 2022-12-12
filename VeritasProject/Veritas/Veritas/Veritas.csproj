@@ -129,6 +129,12 @@
     <Compile Include="SettingsDialog.Designer.cs">
       <DependentUpon>SettingsDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAddForm.Designer.cs">
+      <DependentUpon>ViewAddForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CategoryForm.es.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CategoryForm.ssy.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.es.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.fr-CA.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>
@@ -159,6 +171,12 @@
     <EmbeddedResource Include="EnglishQuestionForm.resx">
       <DependentUpon>EnglishQuestionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.es.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.fr-CA.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +188,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HistoryQuestionForm.resx">
       <DependentUpon>HistoryQuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.es.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.fr-CA.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -222,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SettingsDialog.resx">
       <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAddForm.resx">
+      <DependentUpon>ViewAddForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="EnglishQuestions_en.json" />
     <None Include="HistoryQuestions_en.json" />

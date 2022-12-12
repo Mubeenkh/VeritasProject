@@ -50,9 +50,9 @@
             // 
             // startButtom
             // 
+            resources.ApplyResources(this.startButtom, "startButtom");
             this.startButtom.BackColor = System.Drawing.Color.Tan;
             this.startButtom.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.startButtom, "startButtom");
             this.startButtom.Name = "startButtom";
             this.startButtom.UseVisualStyleBackColor = false;
             this.startButtom.Click += new System.EventHandler(this.startButtom_Click);
@@ -60,9 +60,9 @@
             // 
             // settingButton
             // 
+            resources.ApplyResources(this.settingButton, "settingButton");
             this.settingButton.BackColor = System.Drawing.Color.Tan;
             this.settingButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.settingButton, "settingButton");
             this.settingButton.Name = "settingButton";
             this.settingButton.UseVisualStyleBackColor = false;
             this.settingButton.Click += new System.EventHandler(this.settingButton_Click);
@@ -70,9 +70,9 @@
             // 
             // devButton
             // 
+            resources.ApplyResources(this.devButton, "devButton");
             this.devButton.BackColor = System.Drawing.Color.Tan;
             this.devButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.devButton, "devButton");
             this.devButton.Name = "devButton";
             this.devButton.UseVisualStyleBackColor = false;
             this.devButton.Click += new System.EventHandler(this.devButton_Click);
@@ -85,9 +85,9 @@
             // 
             // ExitButton
             // 
+            resources.ApplyResources(this.ExitButton, "ExitButton");
             this.ExitButton.BackColor = System.Drawing.Color.Tan;
             this.ExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.ExitButton, "ExitButton");
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
@@ -95,10 +95,10 @@
             // 
             // fullExitButton
             // 
+            resources.ApplyResources(this.fullExitButton, "fullExitButton");
             this.fullExitButton.BackColor = System.Drawing.Color.LightCoral;
             this.fullExitButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.fullExitButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.fullExitButton, "fullExitButton");
             this.fullExitButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.fullExitButton.Name = "fullExitButton";
             this.fullExitButton.UseVisualStyleBackColor = false;
@@ -117,37 +117,37 @@
             // 
             // menuStrip
             // 
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.languagesToolStripMenuItem});
-            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Name = "menuStrip";
             // 
             // languagesToolStripMenuItem
             // 
+            resources.ApplyResources(this.languagesToolStripMenuItem, "languagesToolStripMenuItem");
             this.languagesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem,
             this.frenchToolStripMenuItem,
             this.spanishToolStripMenuItem});
             this.languagesToolStripMenuItem.Name = "languagesToolStripMenuItem";
-            resources.ApplyResources(this.languagesToolStripMenuItem, "languagesToolStripMenuItem");
             // 
             // englishToolStripMenuItem
             // 
-            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // frenchToolStripMenuItem
             // 
-            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
             resources.ApplyResources(this.frenchToolStripMenuItem, "frenchToolStripMenuItem");
+            this.frenchToolStripMenuItem.Name = "frenchToolStripMenuItem";
             this.frenchToolStripMenuItem.Click += new System.EventHandler(this.frenchToolStripMenuItem_Click);
             // 
             // spanishToolStripMenuItem
             // 
-            this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
             resources.ApplyResources(this.spanishToolStripMenuItem, "spanishToolStripMenuItem");
+            this.spanishToolStripMenuItem.Name = "spanishToolStripMenuItem";
             this.spanishToolStripMenuItem.Click += new System.EventHandler(this.spanishToolStripMenuItem_Click);
             // 
             // musicPlayer
