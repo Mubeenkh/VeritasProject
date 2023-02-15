@@ -41,7 +41,7 @@ namespace Veritas
                             $"{question},{answer}");
 
                 fileWriter.Close();
-                MessageBox.Show("The account has been created!", "Hell yeah",
+                MessageBox.Show("The account has been created! Banannas", "Hell yeah",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 Login login = new Login();
